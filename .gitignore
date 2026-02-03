@@ -1,4 +1,8 @@
-| node_modules
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
 # Next.js
 .next/
 out/
@@ -20,6 +24,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+*.log
 
 # OS-specific
 .DS_Store
@@ -39,6 +44,9 @@ coverage/
 *.swp
 *.swo
 
+# TypeScript
+*.tsbuildinfo
+
 # Python
 __pycache__/
 *.py[cod]
@@ -51,4 +59,4 @@ env/
 # Others
 .vercel
 .turbo
-node_modules
+*.pem
