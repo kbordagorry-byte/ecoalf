@@ -1,0 +1,1348 @@
+[00:00:00.617] Server  LOG      ✓ Ready in 402ms
+[00:00:50.252] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:50.411] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+            <SegmentViewNode type="page" pagePath="page.tsx">
+              <SegmentTrieNode>
+              <ClientPageRoot Component={function EcoalfPage} serverProvidedParams={{...}}>
+                <EcoalfPage params={Promise} searchParams={Promise}>
+                  <main ref={{current:null}} className="relative b...">
+                    <div>
+                    <div>
+                    <div className="fixed inse...">
+                      <FloatingBubbles count={30} opacity={0.15}>
+                        <div className="absolute i...">
+                          <motion.div initial={{y:"110vh",x:"5...", ...}} animate={{y:"-10vh", ...}} transition={{...}} ...>
+                            <div
+                              className="absolute rounded-full"
+                              style={{
++                               width: 11.052359226693163
+-                               width: "7.31151px"
++                               height: 7.143857240693791
+-                               height: "9.81104px"
++                               background: "radial-gradient(circle at 30% 30%, rgba(255,255,255,0.25), rgba(255,255,2..."
++                               border: "1px solid rgba(255,255,255,0.075)"
++                               opacity: 0
+-                               opacity: "0"
++                               transform: "translateX(55.572185192492604vw) translateY(110vh)"
+-                               transform: "translateX(23.098vw) translateY(110vh)"
+-                               background-image: "radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.25), rgba(..."
+-                               background-position-x: "initial"
+-                               background-position-y: "initial"
+-                               background-size: "initial"
+-                               background-repeat: "initial"
+-                               background-attachment: "initial"
+-                               background-origin: "initial"
+-                               background-clip: "initial"
+-                               background-color: "initial"
+-                               border-top-width: "1px"
+-                               border-right-width: "1px"
+-                               border-bottom-width: "1px"
+-                               border-left-width: "1px"
+-                               border-top-style: "solid"
+-                               border-right-style: "solid"
+-                               border-bottom-style: "solid"
+-                               border-left-style: "solid"
+-                               border-top-color: "rgba(255, 255, 255, 0.075)"
+-                               border-right-color: "rgba(255, 255, 255, 0.075)"
+-                               border-bottom-color: "rgba(255, 255, 255, 0.075)"
+-                               border-left-color: "rgba(255, 255, 255, 0.075)"
+-                               border-image-source: "initial"
+-                               border-image-slice: "initial"
+-                               border-image-width: "initial"
+-                               border-image-outset: "initial"
+-                               border-image-repeat: "initial"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div initial={{y:"110vh",x:"5...", ...}} animate={{y:"-10vh", ...}} transition={{...}} ...>
+                            <div
+                              className="absolute rounded-full"
+                              style={{
++                               width: 5.598379823339654
+-                               width: "10.0459px"
++                               height: 13.925631412321248
+-                               height: "12.8643px"
++                               background: "radial-gradient(circle at 30% 30%, rgba(255,255,255,0.25), rgba(255,255,2..."
++                               border: "1px solid rgba(255,255,255,0.075)"
++                               opacity: 0
+-                               opacity: "0"
++                               transform: "translateX(56.99246474962707vw) translateY(110vh)"
+-                               transform: "translateX(8.0284vw) translateY(110vh)"
+-                               background-image: "radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.25), rgba(..."
+-                               background-position-x: "initial"
+-                               background-position-y: "initial"
+-                               background-size: "initial"
+-                               background-repeat: "initial"
+-                               background-attachment: "initial"
+-                               background-origin: "initial"
+-                               background-clip: "initial"
+-                               background-color: "initial"
+-                               border-top-width: "1px"
+-                               border-right-width: "1px"
+-                               border-bottom-width: "1px"
+-                               border-left-width: "1px"
+-                               border-top-style: "solid"
+-                               border-right-style: "solid"
+-                               border-bottom-style: "solid"
+-                               border-left-style: "solid"
+-                               border-top-color: "rgba(255, 255, 255, 0.075)"
+-                               border-right-color: "rgba(255, 255, 255, 0.075)"
+-                               border-bottom-color: "rgba(255, 255, 255, 0.075)"
+-                               border-left-color: "rgba(255, 255, 255, 0.075)"
+-                               border-image-source: "initial"
+-                               border-image-slice: "initial"
+-                               border-image-width: "initial"
+-                               border-image-outset: "initial"
+-                               border-image-repeat: "initial"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div initial={{y:"110vh",x:"8...", ...}} animate={{y:"-10vh", ...}} transition={{...}} ...>
+                            <div
+                              className="absolute rounded-full"
+                              style={{
++                               width: 10.814822737131111
+-                               width: "12.9561px"
++                               height: 10.856904830039362
+-                               height: "5.81006px"
++                               background: "radial-gradient(circle at 30% 30%, rgba(255,255,255,0.25), rgba(255,255,2..."
++                               border: "1px solid rgba(255,255,255,0.075)"
++                               opacity: 0
+-                               opacity: "0"
++                               transform: "translateX(87.44770331221277vw) translateY(110vh)"
+-                               transform: "translateX(5.14092vw) translateY(110vh)"
+-                               background-image: "radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.25), rgba(..."
+-                               background-position-x: "initial"
+-                               background-position-y: "initial"
+-                               background-size: "initial"
+-                               background-repeat: "initial"
+-                               background-attachment: "initial"
+-                               background-origin: "initial"
+-                               background-clip: "initial"
+-                               background-color: "initial"
+-                               border-top-width: "1px"
+-                               border-right-width: "1px"
+-                               border-bottom-width: "1px"
+-                               border-left-width: "1px"
+-                               border-top-style: "solid"
+-                               border-right-style: "solid"
+-                               border-bottom-style: "solid"
+-                               border-left-style: "solid"
+-                               border-top-color: "rgba(255, 255, 255, 0.075)"
+-                               border-right-color: "rgba(255, 255, 255, 0.075)"
+-                               border-bottom-color: "rgba(255, 255, 255, 0.075)"
+-                               border-left-color: "rgba(255, 255, 255, 0.075)"
+-                               border-image-source: "initial"
+-                               border-image-slice: "initial"
+-                               border-image-width: "initial"
+-                               border-image-outset: "initial"
+-                               border-image-repeat: "initial"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div initial={{y:"110vh",x:"9...", ...}} animate={{y:"-10vh", ...}} transition={{...}} ...>
+                            <div
+                              className="absolute rounded-full"
+                              style={{
++                               width: 4.453922544530513
+-                               width: "12.7227px"
++                               height: 12.477790804538493
+-                               height: "13.459px"
++                               background: "radial-gradient(circle at 30% 30%, rgba(255,255,255,0.25), rgba(255,255,2..."
++                               border: "1px solid rgba(255,255,255,0.075)"
++                               opacity: 0
+-                               opacity: "0"
++                               transform: "translateX(9.082175359969025vw) translateY(110vh)"
+-                               transform: "translateX(62.8738vw) translateY(110vh)"
+-                               background-image: "radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.25), rgba(..."
+-                               background-position-x: "initial"
+-                               background-position-y: "initial"
+-                               background-size: "initial"
+-                               background-repeat: "initial"
+-                               background-attachment: "initial"
+-                               background-origin: "initial"
+-                               background-clip: "initial"
+-                               background-color: "initial"
+-                               border-top-width: "1px"
+-                               border-right-width: "1px"
+-                               border-bottom-width: "1px"
+-                               border-left-width: "1px"
+-                               border-top-style: "solid"
+-                               border-right-style: "solid"
+-                               border-bottom-style: "solid"
+-                               border-left-style: "solid"
+-                               border-top-color: "rgba(255, 255, 255, 0.075)"
+-                               border-right-color: "rgba(255, 255, 255, 0.075)"
+-                               border-bottom-color: "rgba(255, 255, 255, 0.075)"
+-                               border-left-color: "rgba(255, 255, 255, 0.075)"
+-                               border-image-source: "initial"
+-                               border-image-slice: "initial"
+-                               border-image-width: "initial"
+-                               border-image-outset: "initial"
+-                               border-image-repeat: "initial"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div initial={{y:"110vh",x:"6...", ...}} animate={{y:"-10vh", ...}} transition={{...}} ...>
+                            <div
+                              className="absolute rounded-full"
+                              style={{
++                               width: 4.291831868413165
+-                               width: "4.033px"
++                               height: 7.498360694854607
+-                               height: "10.1973px"
++                               background: "radial-gradient(circle at 30% 30%, rgba(255,255,255,0.25), rgba(255,255,2..."
++                               border: "1px solid rgba(255,255,255,0.075)"
++                               opacity: 0
+-                               opacity: "0"
++                               transform: "translateX(68.76353484665914vw) translateY(110vh)"
+-                               transform: "translateX(67.682vw) translateY(110vh)"
+-                               background-image: "radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.25), rgba(..."
+-                               background-position-x: "initial"
+-                               background-position-y: "initial"
+-                               background-size: "initial"
+-                               background-repeat: "initial"
+-                               background-attachment: "initial"
+-                               background-origin: "initial"
+-                               background-clip: "initial"
+-                               background-color: "initial"
+-                               border-top-width: "1px"
+-                               border-right-width: "1px"
+-                               border-bottom-width: "1px"
+-                               border-left-width: "1px"
+-                               border-top-style: "solid"
+-                               border-right-style: "solid"
+-                               border-bottom-style: "solid"
+-                               border-left-style: "solid"
+-                               border-top-color: "rgba(255, 255, 255, 0.075)"
+-                               border-right-color: "rgba(255, 255, 255, 0.075)"
+-                               border-bottom-color: "rgba(255, 255, 255, 0.075)"
+-                               border-left-color: "rgba(255, 255, 255, 0.075)"
+-                               border-image-source: "initial"
+-                               border-image-slice: "initial"
+-                               border-image-width: "initial"
+-                               border-image-outset: "initial"
+-                               border-image-repeat: "initial"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div initial={{y:"110vh",x:"7...", ...}} animate={{y:"-10vh", ...}} transition={{...}} ...>
+                            <div
+                              className="absolute rounded-full"
+                              style={{
++                               width: 10.790851457737677
+-                               width: "13.6104px"
++                               height: 12.26473018154037
+-                               height: "10.0282px"
++                               background: "radial-gradient(circle at 30% 30%, rgba(255,255,255,0.25), rgba(255,255,2..."
++                               border: "1px solid rgba(255,255,255,0.075)"
++                               opacity: 0
+-                               opacity: "0"
++                               transform: "translateX(76.26697559756772vw) translateY(110vh)"
+-                               transform: "translateX(63.9883vw) translateY(110vh)"
+-                               background-image: "radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.25), rgba(..."
+-                               background-position-x: "initial"
+-                               background-position-y: "initial"
+-                               background-size: "initial"
+-                               background-repeat: "initial"
+-                               background-attachment: "initial"
+-                               background-origin: "initial"
+-                               background-clip: "initial"
+-                               background-color: "initial"
+-                               border-top-width: "1px"
+-                               border-right-width: "1px"
+-                               border-bottom-width: "1px"
+-                               border-left-width: "1px"
+-                               border-top-style: "solid"
+-                               border-right-style: "solid"
+-                               border-bottom-style: "solid"
+-                               border-left-style: "solid"
+-                               border-top-color: "rgba(255, 255, 255, 0.075)"
+-                               border-right-color: "rgba(255, 255, 255, 0.075)"
+-                               border-bottom-color: "rgba(255, 255, 255, 0.075)"
+-                               border-left-color: "rgba(255, 255, 255, 0.075)"
+-                               border-image-source: "initial"
+-                               border-image-slice: "initial"
+-                               border-image-width: "initial"
+-                               border-image-outset: "initial"
+-                               border-image-repeat: "initial"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div initial={{y:"110vh",x:"9...", ...}} animate={{y:"-10vh", ...}} transition={{...}} ...>
+                            <div
+                              className="absolute rounded-full"
+                              style={{
++                               width: 5.985795064635276
+-                               width: "8.01961px"
++                               height: 10.049004813085816
+-                               height: "4.00586px"
++                               background: "radial-gradient(circle at 30% 30%, rgba(255,255,255,0.25), rgba(255,255,2..."
++                               border: "1px solid rgba(255,255,255,0.075)"
++                               opacity: 0
+-                               opacity: "0"
++                               transform: "translateX(93.87710756132638vw) translateY(110vh)"
+-                               transform: "translateX(17.7473vw) translateY(110vh)"
+-                               background-image: "radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.25), rgba(..."
+-                               background-position-x: "initial"
+-                               background-position-y: "initial"
+-                               background-size: "initial"
+-                               background-repeat: "initial"
+-                               background-attachment: "initial"
+-                               background-origin: "initial"
+-                               background-clip: "initial"
+-                               background-color: "initial"
+-                               border-top-width: "1px"
+-                               border-right-width: "1px"
+-                               border-bottom-width: "1px"
+-                               border-left-width: "1px"
+-                               border-top-style: "solid"
+-                               border-right-style: "solid"
+-                               border-bottom-style: "solid"
+-                               border-left-style: "solid"
+-                               border-top-color: "rgba(255, 255, 255, 0.075)"
+-                               border-right-color: "rgba(255, 255, 255, 0.075)"
+-                               border-bottom-color: "rgba(255, 255, 255, 0.075)"
+-                               border-left-color: "rgba(255, 255, 255, 0.075)"
+-                               border-image-source: "initial"
+-                               border-image-slice: "initial"
+-                               border-image-width: "initial"
+-                               border-image-outset: "initial"
+-                               border-image-repeat: "initial"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div initial={{y:"110vh",x:"1...", ...}} animate={{y:"-10vh", ...}} transition={{...}} ...>
+                            <div
+                              className="absolute rounded-full"
+                              style={{
++                               width: 13.83550813746235
+-                               width: "4.83136px"
++                               height: 9.207467312191095
+-                               height: "10.1472px"
++                               background: "radial-gradient(circle at 30% 30%, rgba(255,255,255,0.25), rgba(255,255,2..."
++                               border: "1px solid rgba(255,255,255,0.075)"
++                               opacity: 0
+-                               opacity: "0"
++                               transform: "translateX(16.901117716199398vw) translateY(110vh)"
+-                               transform: "translateX(93.1374vw) translateY(110vh)"
+-                               background-image: "radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.25), rgba(..."
+-                               background-position-x: "initial"
+-                               background-position-y: "initial"
+-                               background-size: "initial"
+-                               background-repeat: "initial"
+-                               background-attachment: "initial"
+-                               background-origin: "initial"
+-                               background-clip: "initial"
+-                               background-color: "initial"
+-                               border-top-width: "1px"
+-                               border-right-width: "1px"
+-                               border-bottom-width: "1px"
+-                               border-left-width: "1px"
+-                               border-top-style: "solid"
+-                               border-right-style: "solid"
+-                               border-bottom-style: "solid"
+-                               border-left-style: "solid"
+-                               border-top-color: "rgba(255, 255, 255, 0.075)"
+-                               border-right-color: "rgba(255, 255, 255, 0.075)"
+-                               border-bottom-color: "rgba(255, 255, 255, 0.075)"
+-                               border-left-color: "rgba(255, 255, 255, 0.075)"
+-                               border-image-source: "initial"
+-                               border-image-slice: "initial"
+-                               border-image-width: "initial"
+-                               border-image-outset: "initial"
+-                               border-image-repeat: "initial"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div initial={{y:"110vh",x:"5...", ...}} animate={{y:"-10vh", ...}} transition={{...}} ...>
+                            <div
+                              className="absolute rounded-full"
+                              style={{
++                               width: 4.821023275397193
+-                               width: "5.97751px"
++                               height: 6.916174536958621
+-                               height: "10.4215px"
++                               background: "radial-gradient(circle at 30% 30%, rgba(255,255,255,0.25), rgba(255,255,2..."
++                               border: "1px solid rgba(255,255,255,0.075)"
++                               opacity: 0
+-                               opacity: "0"
++                               transform: "translateX(54.04190965319672vw) translateY(110vh)"
+-                               transform: "translateX(76.0233vw) translateY(110vh)"
+-                               background-image: "radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.25), rgba(..."
+-                               background-position-x: "initial"
+-                               background-position-y: "initial"
+-                               background-size: "initial"
+-                               background-repeat: "initial"
+-                               background-attachment: "initial"
+-                               background-origin: "initial"
+-                               background-clip: "initial"
+-                               background-color: "initial"
+-                               border-top-width: "1px"
+-                               border-right-width: "1px"
+-                               border-bottom-width: "1px"
+-                               border-left-width: "1px"
+-                               border-top-style: "solid"
+-                               border-right-style: "solid"
+-                               border-bottom-style: "solid"
+-                               border-left-style: "solid"
+-                               border-top-color: "rgba(255, 255, 255, 0.075)"
+-                               border-right-color: "rgba(255, 255, 255, 0.075)"
+-                               border-bottom-color: "rgba(255, 255, 255, 0.075)"
+-                               border-left-color: "rgba(255, 255, 255, 0.075)"
+-                               border-image-source: "initial"
+-                               border-image-slice: "initial"
+-                               border-image-width: "initial"
+-                               border-image-outset: "initial"
+-                               border-image-repeat: "initial"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div initial={{y:"110vh",x:"9...", ...}} animate={{y:"-10vh", ...}} transition={{...}} ...>
+                            <div
+                              className="absolute rounded-full"
+                              style={{
++                               width: 6.551776917969493
+-                               width: "8.50325px"
++                               height: 8.70193247737793
+-                               height: "6.86184px"
++                               background: "radial-gradient(circle at 30% 30%, rgba(255,255,255,0.25), rgba(255,255,2..."
++                               border: "1px solid rgba(255,255,255,0.075)"
++                               opacity: 0
+-                               opacity: "0"
++                               transform: "translateX(94.14181330415794vw) translateY(110vh)"
+-                               transform: "translateX(77.1635vw) translateY(110vh)"
+-                               background-image: "radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.25), rgba(..."
+-                               background-position-x: "initial"
+-                               background-position-y: "initial"
+-                               background-size: "initial"
+-                               background-repeat: "initial"
+-                               background-attachment: "initial"
+-                               background-origin: "initial"
+-                               background-clip: "initial"
+-                               background-color: "initial"
+-                               border-top-width: "1px"
+-                               border-right-width: "1px"
+-                               border-bottom-width: "1px"
+-                               border-left-width: "1px"
+-                               border-top-style: "solid"
+-                               border-right-style: "solid"
+-                               border-bottom-style: "solid"
+-                               border-left-style: "solid"
+-                               border-top-color: "rgba(255, 255, 255, 0.075)"
+-                               border-right-color: "rgba(255, 255, 255, 0.075)"
+-                               border-bottom-color: "rgba(255, 255, 255, 0.075)"
+-                               border-left-color: "rgba(255, 255, 255, 0.075)"
+-                               border-image-source: "initial"
+-                               border-image-slice: "initial"
+-                               border-image-width: "initial"
+-                               border-image-outset: "initial"
+-                               border-image-repeat: "initial"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div initial={{y:"110vh",x:"4...", ...}} animate={{y:"-10vh", ...}} transition={{...}} ...>
+                            <div
+                              className="absolute rounded-full"
+                              style={{
++                               width: 5.2791166754549455
+-                               width: "10.3103px"
++                               height: 12.013658120480317
+-                               height: "13.5447px"
++                               background: "radial-gradient(circle at 30% 30%, rgba(255,255,255,0.25), rgba(255,255,2..."
++                               border: "1px solid rgba(255,255,255,0.075)"
++                               opacity: 0
+-                               opacity: "0"
++                               transform: "translateX(45.03599751170731vw) translateY(110vh)"
+-                               transform: "translateX(36.2613vw) translateY(110vh)"
+-                               background-image: "radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.25), rgba(..."
+-                               background-position-x: "initial"
+-                               background-position-y: "initial"
+-                               background-size: "initial"
+-                               background-repeat: "initial"
+-                               background-attachment: "initial"
+-                               background-origin: "initial"
+-                               background-clip: "initial"
+-                               background-color: "initial"
+-                               border-top-width: "1px"
+-                               border-right-width: "1px"
+-                               border-bottom-width: "1px"
+-                               border-left-width: "1px"
+-                               border-top-style: "solid"
+-                               border-right-style: "solid"
+-                               border-bottom-style: "solid"
+-                               border-left-style: "solid"
+-                               border-top-color: "rgba(255, 255, 255, 0.075)"
+-                               border-right-color: "rgba(255, 255, 255, 0.075)"
+-                               border-bottom-color: "rgba(255, 255, 255, 0.075)"
+-                               border-left-color: "rgba(255, 255, 255, 0.075)"
+-                               border-image-source: "initial"
+-                               border-image-slice: "initial"
+-                               border-image-width: "initial"
+-                               border-image-outset: "initial"
+-                               border-image-repeat: "initial"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div initial={{y:"110vh",x:"5...", ...}} animate={{y:"-10vh", ...}} transition={{...}} ...>
+                            <div
+                              className="absolute rounded-full"
+                              style={{
++                               width: 11.44753602405116
+-                               width: "5.7325px"
++                               height: 13.439275025797064
+-                               height: "5.56907px"
++                               background: "radial-gradient(circle at 30% 30%, rgba(255,255,255,0.25), rgba(255,255,2..."
++                               border: "1px solid rgba(255,255,255,0.075)"
++                               opacity: 0
+-                               opacity: "0"
++                               transform: "translateX(52.131872294885405vw) translateY(110vh)"
+-                               transform: "translateX(8.80173vw) translateY(110vh)"
+-                               background-image: "radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.25), rgba(..."
+-                               background-position-x: "initial"
+-                               background-position-y: "initial"
+-                               background-size: "initial"
+-                               background-repeat: "initial"
+-                               background-attachment: "initial"
+-                               background-origin: "initial"
+-                               background-clip: "initial"
+-                               background-color: "initial"
+-                               border-top-width: "1px"
+-                               border-right-width: "1px"
+-                               border-bottom-width: "1px"
+-                               border-left-width: "1px"
+-                               border-top-style: "solid"
+-                               border-right-style: "solid"
+-                               border-bottom-style: "solid"
+-                               border-left-style: "solid"
+-                               border-top-color: "rgba(255, 255, 255, 0.075)"
+-                               border-right-color: "rgba(255, 255, 255, 0.075)"
+-                               border-bottom-color: "rgba(255, 255, 255, 0.075)"
+-                               border-left-color: "rgba(255, 255, 255, 0.075)"
+-                               border-image-source: "initial"
+-                               border-image-slice: "initial"
+-                               border-image-width: "initial"
+-                               border-image-outset: "initial"
+-                               border-image-repeat: "initial"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div initial={{y:"110vh",x:"7...", ...}} animate={{y:"-10vh", ...}} transition={{...}} ...>
+                            <div
+                              className="absolute rounded-full"
+                              style={{
++                               width: 11.126721993267358
+-                               width: "6.61502px"
++                               height: 11.063338118112856
+-                               height: "4.08142px"
++                               background: "radial-gradient(circle at 30% 30%, rgba(255,255,255,0.25), rgba(255,255,2..."
++                               border: "1px solid rgba(255,255,255,0.075)"
++                               opacity: 0
+-                               opacity: "0"
++                               transform: "translateX(76.74271517811009vw) translateY(110vh)"
+-                               transform: "translateX(59.5325vw) translateY(110vh)"
+-                               background-image: "radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.25), rgba(..."
+-                               background-position-x: "initial"
+-                               background-position-y: "initial"
+-                               background-size: "initial"
+-                               background-repeat: "initial"
+-                               background-attachment: "initial"
+-                               background-origin: "initial"
+-                               background-clip: "initial"
+-                               background-color: "initial"
+-                               border-top-width: "1px"
+-                               border-right-width: "1px"
+-                               border-bottom-width: "1px"
+-                               border-left-width: "1px"
+-                               border-top-style: "solid"
+-                               border-right-style: "solid"
+-                               border-bottom-style: "solid"
+-                               border-left-style: "solid"
+-                               border-top-color: "rgba(255, 255, 255, 0.075)"
+-                               border-right-color: "rgba(255, 255, 255, 0.075)"
+-                               border-bottom-color: "rgba(255, 255, 255, 0.075)"
+-                               border-left-color: "rgba(255, 255, 255, 0.075)"
+-                               border-image-source: "initial"
+-                               border-image-slice: "initial"
+-                               border-image-width: "initial"
+-                               border-image-outset: "initial"
+-                               border-image-repeat: "initial"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div initial={{y:"110vh",x:"8...", ...}} animate={{y:"-10vh", ...}} transition={{...}} ...>
+                            <div
+                              className="absolute rounded-full"
+                              style={{
++                               width: 11.221588993585549
+-                               width: "5.43779px"
++                               height: 4.525735294243816
+-                               height: "7.54553px"
++                               background: "radial-gradient(circle at 30% 30%, rgba(255,255,255,0.25), rgba(255,255,2..."
++                               border: "1px solid rgba(255,255,255,0.075)"
++                               opacity: 0
+-                               opacity: "0"
++                               transform: "translateX(80.31582605183543vw) translateY(110vh)"
+-                               transform: "translateX(93.8784vw) translateY(110vh)"
+-                               background-image: "radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.25), rgba(..."
+-                               background-position-x: "initial"
+-                               background-position-y: "initial"
+-                               background-size: "initial"
+-                               background-repeat: "initial"
+-                               background-attachment: "initial"
+-                               background-origin: "initial"
+-                               background-clip: "initial"
+-                               background-color: "initial"
+-                               border-top-width: "1px"
+-                               border-right-width: "1px"
+-                               border-bottom-width: "1px"
+-                               border-left-width: "1px"
+-                               border-top-style: "solid"
+-                               border-right-style: "solid"
+-                               border-bottom-style: "solid"
+-                               border-left-style: "solid"
+-                               border-top-color: "rgba(255, 255, 255, 0.075)"
+-                               border-right-color: "rgba(255, 255, 255, 0.075)"
+-                               border-bottom-color: "rgba(255, 255, 255, 0.075)"
+-                               border-left-color: "rgba(255, 255, 255, 0.075)"
+-                               border-image-source: "initial"
+-                               border-image-slice: "initial"
+-                               border-image-width: "initial"
+-                               border-image-outset: "initial"
+-                               border-image-repeat: "initial"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div initial={{y:"110vh",x:"9...", ...}} animate={{y:"-10vh", ...}} transition={{...}} ...>
+                            <div
+                              className="absolute rounded-full"
+                              style={{
++                               width: 12.412952397202575
+-                               width: "11.7292px"
++                               height: 5.06280118101383
+-                               height: "12.1165px"
++                               background: "radial-gradient(circle at 30% 30%, rgba(255,255,255,0.25), rgba(255,255,2..."
++                               border: "1px solid rgba(255,255,255,0.075)"
++                               opacity: 0
+-                               opacity: "0"
++                               transform: "translateX(95.47883578475972vw) translateY(110vh)"
+-                               transform: "translateX(96.6588vw) translateY(110vh)"
+-                               background-image: "radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.25), rgba(..."
+-                               background-position-x: "initial"
+-                               background-position-y: "initial"
+-                               background-size: "initial"
+-                               background-repeat: "initial"
+-                               background-attachment: "initial"
+-                               background-origin: "initial"
+-                               background-clip: "initial"
+-                               background-color: "initial"
+-                               border-top-width: "1px"
+-                               border-right-width: "1px"
+-                               border-bottom-width: "1px"
+-                               border-left-width: "1px"
+-                               border-top-style: "solid"
+-                               border-right-style: "solid"
+-                               border-bottom-style: "solid"
+-                               border-left-style: "solid"
+-                               border-top-color: "rgba(255, 255, 255, 0.075)"
+-                               border-right-color: "rgba(255, 255, 255, 0.075)"
+-                               border-bottom-color: "rgba(255, 255, 255, 0.075)"
+-                               border-left-color: "rgba(255, 255, 255, 0.075)"
+-                               border-image-source: "initial"
+-                               border-image-slice: "initial"
+-                               border-image-width: "initial"
+-                               border-image-outset: "initial"
+-                               border-image-repeat: "initial"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div initial={{y:"110vh",x:"6...", ...}} animate={{y:"-10vh", ...}} transition={{...}} ...>
+                            <div
+                              className="absolute rounded-full"
+                              style={{
++                               width: 8.814646150921856
+-                               width: "10.5214px"
++                               height: 10.863343131002347
+-                               height: "10.0013px"
++                               background: "radial-gradient(circle at 30% 30%, rgba(255,255,255,0.25), rgba(255,255,2..."
++                               border: "1px solid rgba(255,255,255,0.075)"
++                               opacity: 0
+-                               opacity: "0"
++                               transform: "translateX(67.61310554515593vw) translateY(110vh)"
+-                               transform: "translateX(71.3054vw) translateY(110vh)"
+-                               background-image: "radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.25), rgba(..."
+-                               background-position-x: "initial"
+-                               background-position-y: "initial"
+-                               background-size: "initial"
+-                               background-repeat: "initial"
+-                               background-attachment: "initial"
+-                               background-origin: "initial"
+-                               background-clip: "initial"
+-                               background-color: "initial"
+-                               border-top-width: "1px"
+-                               border-right-width: "1px"
+-                               border-bottom-width: "1px"
+-                               border-left-width: "1px"
+-                               border-top-style: "solid"
+-                               border-right-style: "solid"
+-                               border-bottom-style: "solid"
+-                               border-left-style: "solid"
+-                               border-top-color: "rgba(255, 255, 255, 0.075)"
+-                               border-right-color: "rgba(255, 255, 255, 0.075)"
+-                               border-bottom-color: "rgba(255, 255, 255, 0.075)"
+-                               border-left-color: "rgba(255, 255, 255, 0.075)"
+-                               border-image-source: "initial"
+-                               border-image-slice: "initial"
+-                               border-image-width: "initial"
+-                               border-image-outset: "initial"
+-                               border-image-repeat: "initial"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div initial={{y:"110vh",x:"7...", ...}} animate={{y:"-10vh", ...}} transition={{...}} ...>
+                            <div
+                              className="absolute rounded-full"
+                              style={{
++                               width: 11.44839827423106
+-                               width: "8.33443px"
++                               height: 8.68430401884504
+-                               height: "12.7284px"
++                               background: "radial-gradient(circle at 30% 30%, rgba(255,255,255,0.25), rgba(255,255,2..."
++                               border: "1px solid rgba(255,255,255,0.075)"
++                               opacity: 0
+-                               opacity: "0"
++                               transform: "translateX(72.55522521726925vw) translateY(110vh)"
+-                               transform: "translateX(51.7576vw) translateY(110vh)"
+-                               background-image: "radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.25), rgba(..."
+-                               background-position-x: "initial"
+-                               background-position-y: "initial"
+-                               background-size: "initial"
+-                               background-repeat: "initial"
+-                               background-attachment: "initial"
+-                               background-origin: "initial"
+-                               background-clip: "initial"
+-                               background-color: "initial"
+-                               border-top-width: "1px"
+-                               border-right-width: "1px"
+-                               border-bottom-width: "1px"
+-                               border-left-width: "1px"
+-                               border-top-style: "solid"
+-                               border-right-style: "solid"
+-                               border-bottom-style: "solid"
+-                               border-left-style: "solid"
+-                               border-top-color: "rgba(255, 255, 255, 0.075)"
+-                               border-right-color: "rgba(255, 255, 255, 0.075)"
+-                               border-bottom-color: "rgba(255, 255, 255, 0.075)"
+-                               border-left-color: "rgba(255, 255, 255, 0.075)"
+-                               border-image-source: "initial"
+-                               border-image-slice: "initial"
+-                               border-image-width: "initial"
+-                               border-image-outset: "initial"
+-                               border-image-repeat: "initial"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div initial={{y:"110vh",x:"5...", ...}} animate={{y:"-10vh", ...}} transition={{...}} ...>
+                            <div
+                              className="absolute rounded-full"
+                              style={{
++                               width: 6.5070463748775085
+-                               width: "10.6722px"
++                               height: 5.127377837092666
+-                               height: "8.23243px"
++                               background: "radial-gradient(circle at 30% 30%, rgba(255,255,255,0.25), rgba(255,255,2..."
++                               border: "1px solid rgba(255,255,255,0.075)"
++                               opacity: 0
+-                               opacity: "0"
++                               transform: "translateX(59.43425080630272vw) translateY(110vh)"
+-                               transform: "translateX(75.2775vw) translateY(110vh)"
+-                               background-image: "radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.25), rgba(..."
+-                               background-position-x: "initial"
+-                               background-position-y: "initial"
+-                               background-size: "initial"
+-                               background-repeat: "initial"
+-                               background-attachment: "initial"
+-                               background-origin: "initial"
+-                               background-clip: "initial"
+-                               background-color: "initial"
+-                               border-top-width: "1px"
+-                               border-right-width: "1px"
+-                               border-bottom-width: "1px"
+-                               border-left-width: "1px"
+-                               border-top-style: "solid"
+-                               border-right-style: "solid"
+-                               border-bottom-style: "solid"
+-                               border-left-style: "solid"
+-                               border-top-color: "rgba(255, 255, 255, 0.075)"
+-                               border-right-color: "rgba(255, 255, 255, 0.075)"
+-                               border-bottom-color: "rgba(255, 255, 255, 0.075)"
+-                               border-left-color: "rgba(255, 255, 255, 0.075)"
+-                               border-image-source: "initial"
+-                               border-image-slice: "initial"
+-                               border-image-width: "initial"
+-                               border-image-outset: "initial"
+-                               border-image-repeat: "initial"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div initial={{y:"110vh",x:"3...", ...}} animate={{y:"-10vh", ...}} transition={{...}} ...>
+                            <div
+                              className="absolute rounded-full"
+                              style={{
++                               width: 5.755574159763954
+-                               width: "9.58988px"
++                               height: 7.011356231816668
+-                               height: "4.74346px"
++                               background: "radial-gradient(circle at 30% 30%, rgba(255,255,255,0.25), rgba(255,255,2..."
++                               border: "1px solid rgba(255,255,255,0.075)"
++                               opacity: 0
+-                               opacity: "0"
++                               transform: "translateX(35.96855406180701vw) translateY(110vh)"
+-                               transform: "translateX(10.7106vw) translateY(110vh)"
+-                               background-image: "radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.25), rgba(..."
+-                               background-position-x: "initial"
+-                               background-position-y: "initial"
+-                               background-size: "initial"
+-                               background-repeat: "initial"
+-                               background-attachment: "initial"
+-                               background-origin: "initial"
+-                               background-clip: "initial"
+-                               background-color: "initial"
+-                               border-top-width: "1px"
+-                               border-right-width: "1px"
+-                               border-bottom-width: "1px"
+-                               border-left-width: "1px"
+-                               border-top-style: "solid"
+-                               border-right-style: "solid"
+-                               border-bottom-style: "solid"
+-                               border-left-style: "solid"
+-                               border-top-color: "rgba(255, 255, 255, 0.075)"
+-                               border-right-color: "rgba(255, 255, 255, 0.075)"
+-                               border-bottom-color: "rgba(255, 255, 255, 0.075)"
+-                               border-left-color: "rgba(255, 255, 255, 0.075)"
+-                               border-image-source: "initial"
+-                               border-image-slice: "initial"
+-                               border-image-width: "initial"
+-                               border-image-outset: "initial"
+-                               border-image-repeat: "initial"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div initial={{y:"110vh",x:"3...", ...}} animate={{y:"-10vh", ...}} transition={{...}} ...>
+                            <div
+                              className="absolute rounded-full"
+                              style={{
++                               width: 10.72213295410393
+-                               width: "8.66933px"
++                               height: 4.968371285069206
+-                               height: "7.27363px"
++                               background: "radial-gradient(circle at 30% 30%, rgba(255,255,255,0.25), rgba(255,255,2..."
++                               border: "1px solid rgba(255,255,255,0.075)"
++                               opacity: 0
+-                               opacity: "0"
++                               transform: "translateX(32.7201032147395vw) translateY(110vh)"
+-                               transform: "translateX(24.2163vw) translateY(110vh)"
+-                               background-image: "radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.25), rgba(..."
+-                               background-position-x: "initial"
+-                               background-position-y: "initial"
+-                               background-size: "initial"
+-                               background-repeat: "initial"
+-                               background-attachment: "initial"
+-                               background-origin: "initial"
+-                               background-clip: "initial"
+-                               background-color: "initial"
+-                               border-top-width: "1px"
+-                               border-right-width: "1px"
+-                               border-bottom-width: "1px"
+-                               border-left-width: "1px"
+-                               border-top-style: "solid"
+-                               border-right-style: "solid"
+-                               border-bottom-style: "solid"
+-                               border-left-style: "solid"
+-                               border-top-color: "rgba(255, 255, 255, 0.075)"
+-                               border-right-color: "rgba(255, 255, 255, 0.075)"
+-                               border-bottom-color: "rgba(255, 255, 255, 0.075)"
+-                               border-left-color: "rgba(255, 255, 255, 0.075)"
+-                               border-image-source: "initial"
+-                               border-image-slice: "initial"
+-                               border-image-width: "initial"
+-                               border-image-outset: "initial"
+-                               border-image-repeat: "initial"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div initial={{y:"110vh",x:"8...", ...}} animate={{y:"-10vh", ...}} transition={{...}} ...>
+                            <div
+                              className="absolute rounded-full"
+                              style={{
++                               width: 5.795546787737584
+-                               width: "6.28062px"
++                               height: 9.76317827860216
+-                               height: "7.79587px"
++                               background: "radial-gradient(circle at 30% 30%, rgba(255,255,255,0.25), rgba(255,255,2..."
++                               border: "1px solid rgba(255,255,255,0.075)"
++                               opacity: 0
+-                               opacity: "0"
++                               transform: "translateX(80.63875611818723vw) translateY(110vh)"
+-                               transform: "translateX(33.5734vw) translateY(110vh)"
+-                               background-image: "radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.25), rgba(..."
+-                               background-position-x: "initial"
+-                               background-position-y: "initial"
+-                               background-size: "initial"
+-                               background-repeat: "initial"
+-                               background-attachment: "initial"
+-                               background-origin: "initial"
+-                               background-clip: "initial"
+-                               background-color: "initial"
+-                               border-top-width: "1px"
+-                               border-right-width: "1px"
+-                               border-bottom-width: "1px"
+-                               border-left-width: "1px"
+-                               border-top-style: "solid"
+-                               border-right-style: "solid"
+-                               border-bottom-style: "solid"
+-                               border-left-style: "solid"
+-                               border-top-color: "rgba(255, 255, 255, 0.075)"
+-                               border-right-color: "rgba(255, 255, 255, 0.075)"
+-                               border-bottom-color: "rgba(255, 255, 255, 0.075)"
+-                               border-left-color: "rgba(255, 255, 255, 0.075)"
+-                               border-image-source: "initial"
+-                               border-image-slice: "initial"
+-                               border-image-width: "initial"
+-                               border-image-outset: "initial"
+-                               border-image-repeat: "initial"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div initial={{y:"110vh",x:"5...", ...}} animate={{y:"-10vh", ...}} transition={{...}} ...>
+                            <div
+                              className="absolute rounded-full"
+                              style={{
++                               width: 5.928726471847836
+-                               width: "10.4923px"
++                               height: 4.459327636766468
+-                               height: "12.7119px"
++                               background: "radial-gradient(circle at 30% 30%, rgba(255,255,255,0.25), rgba(255,255,2..."
++                               border: "1px solid rgba(255,255,255,0.075)"
++                               opacity: 0
+-                               opacity: "0"
++                               transform: "translateX(51.0199336747806vw) translateY(110vh)"
+-                               transform: "translateX(48.1577vw) translateY(110vh)"
+-                               background-image: "radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.25), rgba(..."
+-                               background-position-x: "initial"
+-                               background-position-y: "initial"
+-                               background-size: "initial"
+-                               background-repeat: "initial"
+-                               background-attachment: "initial"
+-                               background-origin: "initial"
+-                               background-clip: "initial"
+-                               background-color: "initial"
+-                               border-top-width: "1px"
+-                               border-right-width: "1px"
+-                               border-bottom-width: "1px"
+-                               border-left-width: "1px"
+-                               border-top-style: "solid"
+-                               border-right-style: "solid"
+-                               border-bottom-style: "solid"
+-                               border-left-style: "solid"
+-                               border-top-color: "rgba(255, 255, 255, 0.075)"
+-                               border-right-color: "rgba(255, 255, 255, 0.075)"
+-                               border-bottom-color: "rgba(255, 255, 255, 0.075)"
+-                               border-left-color: "rgba(255, 255, 255, 0.075)"
+-                               border-image-source: "initial"
+-                               border-image-slice: "initial"
+-                               border-image-width: "initial"
+-                               border-image-outset: "initial"
+-                               border-image-repeat: "initial"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div initial={{y:"110vh",x:"3...", ...}} animate={{y:"-10vh", ...}} transition={{...}} ...>
+                            <div
+                              className="absolute rounded-full"
+                              style={{
++                               width: 9.755579080753233
+-                               width: "7.63409px"
++                               height: 7.154252152953719
+-                               height: "9.65566px"
++                               background: "radial-gradient(circle at 30% 30%, rgba(255,255,255,0.25), rgba(255,255,2..."
++                               border: "1px solid rgba(255,255,255,0.075)"
++                               opacity: 0
+-                               opacity: "0"
++                               transform: "translateX(30.883329626074605vw) translateY(110vh)"
+-                               transform: "translateX(26.2701vw) translateY(110vh)"
+-                               background-image: "radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.25), rgba(..."
+-                               background-position-x: "initial"
+-                               background-position-y: "initial"
+-                               background-size: "initial"
+-                               background-repeat: "initial"
+-                               background-attachment: "initial"
+-                               background-origin: "initial"
+-                               background-clip: "initial"
+-                               background-color: "initial"
+-                               border-top-width: "1px"
+-                               border-right-width: "1px"
+-                               border-bottom-width: "1px"
+-                               border-left-width: "1px"
+-                               border-top-style: "solid"
+-                               border-right-style: "solid"
+-                               border-bottom-style: "solid"
+-                               border-left-style: "solid"
+-                               border-top-color: "rgba(255, 255, 255, 0.075)"
+-                               border-right-color: "rgba(255, 255, 255, 0.075)"
+-                               border-bottom-color: "rgba(255, 255, 255, 0.075)"
+-                               border-left-color: "rgba(255, 255, 255, 0.075)"
+-                               border-image-source: "initial"
+-                               border-image-slice: "initial"
+-                               border-image-width: "initial"
+-                               border-image-outset: "initial"
+-                               border-image-repeat: "initial"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div initial={{y:"110vh",x:"9...", ...}} animate={{y:"-10vh", ...}} transition={{...}} ...>
+                            <div
+                              className="absolute rounded-full"
+                              style={{
++                               width: 7.310270127983036
+-                               width: "8.98126px"
++                               height: 5.498862114759238
+-                               height: "8.32747px"
++                               background: "radial-gradient(circle at 30% 30%, rgba(255,255,255,0.25), rgba(255,255,2..."
++                               border: "1px solid rgba(255,255,255,0.075)"
++                               opacity: 0
+-                               opacity: "0"
++                               transform: "translateX(93.39665383749328vw) translateY(110vh)"
+-                               transform: "translateX(76.1702vw) translateY(110vh)"
+-                               background-image: "radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.25), rgba(..."
+-                               background-position-x: "initial"
+-                               background-position-y: "initial"
+-                               background-size: "initial"
+-                               background-repeat: "initial"
+-                               background-attachment: "initial"
+-                               background-origin: "initial"
+-                               background-clip: "initial"
+-                               background-color: "initial"
+-                               border-top-width: "1px"
+-                               border-right-width: "1px"
+-                               border-bottom-width: "1px"
+-                               border-left-width: "1px"
+-                               border-top-style: "solid"
+-                               border-right-style: "solid"
+-                               border-bottom-style: "solid"
+-                               border-left-style: "solid"
+-                               border-top-color: "rgba(255, 255, 255, 0.075)"
+-                               border-right-color: "rgba(255, 255, 255, 0.075)"
+-                               border-bottom-color: "rgba(255, 255, 255, 0.075)"
+-                               border-left-color: "rgba(255, 255, 255, 0.075)"
+-                               border-image-source: "initial"
+-                               border-image-slice: "initial"
+-                               border-image-width: "initial"
+-                               border-image-outset: "initial"
+-                               border-image-repeat: "initial"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div initial={{y:"110vh",x:"4...", ...}} animate={{y:"-10vh", ...}} transition={{...}} ...>
+                            <div
+                              className="absolute rounded-full"
+                              style={{
++                               width: 7.933694802076152
+-                               width: "4.94962px"
++                               height: 6.334215467107095
+-                               height: "6.14128px"
++                               background: "radial-gradient(circle at 30% 30%, rgba(255,255,255,0.25), rgba(255,255,2..."
++                               border: "1px solid rgba(255,255,255,0.075)"
++                               opacity: 0
+-                               opacity: "0"
++                               transform: "translateX(48.312068418666954vw) translateY(110vh)"
+-                               transform: "translateX(18.2929vw) translateY(110vh)"
+-                               background-image: "radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.25), rgba(..."
+-                               background-position-x: "initial"
+-                               background-position-y: "initial"
+-                               background-size: "initial"
+-                               background-repeat: "initial"
+-                               background-attachment: "initial"
+-                               background-origin: "initial"
+-                               background-clip: "initial"
+-                               background-color: "initial"
+-                               border-top-width: "1px"
+-                               border-right-width: "1px"
+-                               border-bottom-width: "1px"
+-                               border-left-width: "1px"
+-                               border-top-style: "solid"
+-                               border-right-style: "solid"
+-                               border-bottom-style: "solid"
+-                               border-left-style: "solid"
+-                               border-top-color: "rgba(255, 255, 255, 0.075)"
+-                               border-right-color: "rgba(255, 255, 255, 0.075)"
+-                               border-bottom-color: "rgba(255, 255, 255, 0.075)"
+-                               border-left-color: "rgba(255, 255, 255, 0.075)"
+-                               border-image-source: "initial"
+-                               border-image-slice: "initial"
+-                               border-image-width: "initial"
+-                               border-image-outset: "initial"
+-                               border-image-repeat: "initial"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div initial={{y:"110vh",x:"2...", ...}} animate={{y:"-10vh", ...}} transition={{...}} ...>
+                            <div
+                              className="absolute rounded-full"
+                              style={{
++                               width: 7.372775360359325
+-                               width: "6.15981px"
++                               height: 12.378197012984689
+-                               height: "11.6217px"
++                               background: "radial-gradient(circle at 30% 30%, rgba(255,255,255,0.25), rgba(255,255,2..."
++                               border: "1px solid rgba(255,255,255,0.075)"
++                               opacity: 0
+-                               opacity: "0"
++                               transform: "translateX(23.013894520422053vw) translateY(110vh)"
+-                               transform: "translateX(47.4493vw) translateY(110vh)"
+-                               background-image: "radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.25), rgba(..."
+-                               background-position-x: "initial"
+-                               background-position-y: "initial"
+-                               background-size: "initial"
+-                               background-repeat: "initial"
+-                               background-attachment: "initial"
+-                               background-origin: "initial"
+-                               background-clip: "initial"
+-                               background-color: "initial"
+-                               border-top-width: "1px"
+-                               border-right-width: "1px"
+-                               border-bottom-width: "1px"
+-                               border-left-width: "1px"
+-                               border-top-style: "solid"
+-                               border-right-style: "solid"
+-                               border-bottom-style: "solid"
+-                               border-left-style: "solid"
+-                               border-top-color: "rgba(255, 255, 255, 0.075)"
+-                               border-right-color: "rgba(255, 255, 255, 0.075)"
+-                               border-bottom-color: "rgba(255, 255, 255, 0.075)"
+-                               border-left-color: "rgba(255, 255, 255, 0.075)"
+-                               border-image-source: "initial"
+-                               border-image-slice: "initial"
+-                               border-image-width: "initial"
+-                               border-image-outset: "initial"
+-                               border-image-repeat: "initial"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div initial={{y:"110vh",x:"5...", ...}} animate={{y:"-10vh", ...}} transition={{...}} ...>
+                            <div
+                              className="absolute rounded-full"
+                              style={{
++                               width: 4.745244438390613
+-                               width: "13.509px"
++                               height: 7.568205417828706
+-                               height: "8.6501px"
++                               background: "radial-gradient(circle at 30% 30%, rgba(255,255,255,0.25), rgba(255,255,2..."
++                               border: "1px solid rgba(255,255,255,0.075)"
++                               opacity: 0
+-                               opacity: "0"
++                               transform: "translateX(51.84139034719104vw) translateY(110vh)"
+-                               transform: "translateX(4.74075vw) translateY(110vh)"
+-                               background-image: "radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.25), rgba(..."
+-                               background-position-x: "initial"
+-                               background-position-y: "initial"
+-                               background-size: "initial"
+-                               background-repeat: "initial"
+-                               background-attachment: "initial"
+-                               background-origin: "initial"
+-                               background-clip: "initial"
+-                               background-color: "initial"
+-                               border-top-width: "1px"
+-                               border-right-width: "1px"
+-                               border-bottom-width: "1px"
+-                               border-left-width: "1px"
+-                               border-top-style: "solid"
+-                               border-right-style: "solid"
+-                               border-bottom-style: "solid"
+-                               border-left-style: "solid"
+-                               border-top-color: "rgba(255, 255, 255, 0.075)"
+-                               border-right-color: "rgba(255, 255, 255, 0.075)"
+-                               border-bottom-color: "rgba(255, 255, 255, 0.075)"
+-                               border-left-color: "rgba(255, 255, 255, 0.075)"
+-                               border-image-source: "initial"
+-                               border-image-slice: "initial"
+-                               border-image-width: "initial"
+-                               border-image-outset: "initial"
+-                               border-image-repeat: "initial"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div initial={{y:"110vh",x:"5...", ...}} animate={{y:"-10vh", ...}} transition={{...}} ...>
+                            <div
+                              className="absolute rounded-full"
+                              style={{
++                               width: 6.409052941564744
+-                               width: "5.43663px"
++                               height: 10.375083468936735
+-                               height: "6.4352px"
++                               background: "radial-gradient(circle at 30% 30%, rgba(255,255,255,0.25), rgba(255,255,2..."
++                               border: "1px solid rgba(255,255,255,0.075)"
++                               opacity: 0
+-                               opacity: "0"
++                               transform: "translateX(58.6294039319728vw) translateY(110vh)"
+-                               transform: "translateX(28.5079vw) translateY(110vh)"
+-                               background-image: "radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.25), rgba(..."
+-                               background-position-x: "initial"
+-                               background-position-y: "initial"
+-                               background-size: "initial"
+-                               background-repeat: "initial"
+-                               background-attachment: "initial"
+-                               background-origin: "initial"
+-                               background-clip: "initial"
+-                               background-color: "initial"
+-                               border-top-width: "1px"
+-                               border-right-width: "1px"
+-                               border-bottom-width: "1px"
+-                               border-left-width: "1px"
+-                               border-top-style: "solid"
+-                               border-right-style: "solid"
+-                               border-bottom-style: "solid"
+-                               border-left-style: "solid"
+-                               border-top-color: "rgba(255, 255, 255, 0.075)"
+-                               border-right-color: "rgba(255, 255, 255, 0.075)"
+-                               border-bottom-color: "rgba(255, 255, 255, 0.075)"
+-                               border-left-color: "rgba(255, 255, 255, 0.075)"
+-                               border-image-source: "initial"
+-                               border-image-slice: "initial"
+-                               border-image-width: "initial"
+-                               border-image-outset: "initial"
+-                               border-image-repeat: "initial"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div initial={{y:"110vh",x:"9...", ...}} animate={{y:"-10vh", ...}} transition={{...}} ...>
+                            <div
+                              className="absolute rounded-full"
+                              style={{
++                               width: 8.830299744457683
+-                               width: "5.38023px"
++                               height: 6.867136376356633
+-                               height: "5.11785px"
++                               background: "radial-gradient(circle at 30% 30%, rgba(255,255,255,0.25), rgba(255,255,2..."
++                               border: "1px solid rgba(255,255,255,0.075)"
++                               opacity: 0
+-                               opacity: "0"
++                               transform: "translateX(9.190601535226095vw) translateY(110vh)"
+-                               transform: "translateX(22.7945vw) translateY(110vh)"
+-                               background-image: "radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.25), rgba(..."
+-                               background-position-x: "initial"
+-                               background-position-y: "initial"
+-                               background-size: "initial"
+-                               background-repeat: "initial"
+-                               background-attachment: "initial"
+-                               background-origin: "initial"
+-                               background-clip: "initial"
+-                               background-color: "initial"
+-                               border-top-width: "1px"
+-                               border-right-width: "1px"
+-                               border-bottom-width: "1px"
+-                               border-left-width: "1px"
+-                               border-top-style: "solid"
+-                               border-right-style: "solid"
+-                               border-bottom-style: "solid"
+-                               border-left-style: "solid"
+-                               border-top-color: "rgba(255, 255, 255, 0.075)"
+-                               border-right-color: "rgba(255, 255, 255, 0.075)"
+-                               border-bottom-color: "rgba(255, 255, 255, 0.075)"
+-                               border-left-color: "rgba(255, 255, 255, 0.075)"
+-                               border-image-source: "initial"
+-                               border-image-slice: "initial"
+-                               border-image-width: "initial"
+-                               border-image-outset: "initial"
+-                               border-image-repeat: "initial"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div initial={{y:"110vh",x:"7...", ...}} animate={{y:"-10vh", ...}} transition={{...}} ...>
+                            <div
+                              className="absolute rounded-full"
+                              style={{
++                               width: 11.04641647888359
+-                               width: "11.642px"
++                               height: 10.947308049139403
+-                               height: "8.13764px"
++                               background: "radial-gradient(circle at 30% 30%, rgba(255,255,255,0.25), rgba(255,255,2..."
++                               border: "1px solid rgba(255,255,255,0.075)"
++                               opacity: 0
+-                               opacity: "0"
++                               transform: "translateX(78.66324165978402vw) translateY(110vh)"
+-                               transform: "translateX(90.6168vw) translateY(110vh)"
+-                               background-image: "radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.25), rgba(..."
+-                               background-position-x: "initial"
+-                               background-position-y: "initial"
+-                               background-size: "initial"
+-                               background-repeat: "initial"
+-                               background-attachment: "initial"
+-                               background-origin: "initial"
+-                               background-clip: "initial"
+-                               background-color: "initial"
+-                               border-top-width: "1px"
+-                               border-right-width: "1px"
+-                               border-bottom-width: "1px"
+-                               border-left-width: "1px"
+-                               border-top-style: "solid"
+-                               border-right-style: "solid"
+-                               border-bottom-style: "solid"
+-                               border-left-style: "solid"
+-                               border-top-color: "rgba(255, 255, 255, 0.075)"
+-                               border-right-color: "rgba(255, 255, 255, 0.075)"
+-                               border-bottom-color: "rgba(255, 255, 255, 0.075)"
+-                               border-left-color: "rgba(255, 255, 255, 0.075)"
+-                               border-image-source: "initial"
+-                               border-image-slice: "initial"
+-                               border-image-width: "initial"
+-                               border-image-outset: "initial"
+-                               border-image-repeat: "initial"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                    ...
+            ...
+          ...
+
+[00:00:50.411] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[00:00:50.669] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:50.669] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:50.669] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770131221345}
+[00:01:49.059] Server  LOG      ✓ Compiled in 104ms
+[00:08:32.367] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[00:08:32.367] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:08:32.367] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:08:32.367] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770131683043}
+[00:08:39.795] Server  LOG      ✓ Compiled in 217ms
+[00:09:10.244] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[00:09:10.244] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:09:10.244] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:09:10.244] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770131720918}
+[00:11:49.522] Server  LOG      ✓ Compiled in 161ms
+[00:14:55.971] Server  LOG      ✓ Compiled in 63ms
+[00:18:06.956] Server  LOG      ✓ Compiled in 56ms
+[00:18:55.619] Server  LOG      ✓ Compiled in 60ms
+[00:22:45.734] Server  LOG      ✓ Compiled in 126ms
+[00:23:59.287] Server  LOG      ✓ Compiled in 160ms
+[00:47:27.124] Server  LOG      ✓ Compiled in 161ms
+[00:53:28.165] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[00:53:28.165] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:53:28.165] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:53:28.165] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770134378842}
