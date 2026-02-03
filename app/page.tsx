@@ -199,7 +199,7 @@ export default function EcoalfPage() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="text-sm tracking-[0.3em] uppercase text-white/50 mb-8"
+            className="text-lg md:text-xl lg:text-2xl tracking-[0.3em] uppercase text-white/50 mb-0"
           >
             Propuesta estrategica de marketing
           </motion.p>
@@ -208,11 +208,11 @@ export default function EcoalfPage() {
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1, delay: 0.6 }}
-            className="mb-8 flex justify-center"
+            className="mb-0 flex justify-center"
           >
-            <div className="relative w-[300px] md:w-[500px] lg:w-[700px] aspect-[4/1]">
+            <div className="relative w-[90vw] max-w-[1600px] h-[200px] md:h-[300px] lg:h-[400px] -my-12 md:-my-16 lg:-my-24">
               <Image
-                src="/images/ecoalf-logo-processed.png"
+                src="/images/ecoalf-logo-hq.png"
                 alt="ECOALF"
                 fill
                 className="object-contain"
@@ -258,21 +258,21 @@ export default function EcoalfPage() {
       </section>
 
       {/* SECTION 2: CONVICCION PERSONAL */}
-      <section className="relative min-h-screen flex items-center justify-center px-6 py-24">
+      <section className="relative flex flex-col items-center justify-center px-6 py-12">
         <AnimatedSection className="relative z-10 max-w-4xl">
           <GlassCard className="p-12 md:p-16 rounded-3xl">
             <motion.p
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ duration: 1.5 }}
-              className="text-xl md:text-2xl lg:text-3xl font-light leading-relaxed text-white/80"
+              className="text-base md:text-lg lg:text-xl font-light leading-relaxed text-white/80"
             >
               <span className="block mb-8">
                 Este analisis parte de una conviccion personal: en un mercado saturado de mensajes eticos, las marcas no compiten por quien es mas responsable, sino por quien consigue ser{" "}
                 <span className="text-cyan-300 font-medium">culturalmente relevante</span>{" "}
                 sin perder coherencia.
               </span>
-              <span className="block text-xl md:text-2xl lg:text-3xl font-light leading-relaxed text-white/80">
+              <span className="block text-base md:text-lg lg:text-xl font-light leading-relaxed text-white/80">
                 Este trabajo no busca describir la marca, sino tomar decisiones. He evitado deliberadamente caer en más datos de sostenibilidad, porque ese no es el problema de ECOALF hoy.
               </span>
             </motion.p>
@@ -281,16 +281,16 @@ export default function EcoalfPage() {
       </section>
 
       {/* SECTION 3: CONTEXTO DE MERCADO */}
-      <section className="relative min-h-screen flex flex-col items-center justify-center px-6 py-24">
+      <section className="relative flex flex-col items-center justify-center px-6 py-12">
         <div className="relative z-10 max-w-5xl w-full space-y-16">
           <AnimatedSection className="text-center">
-            <p className="text-sm tracking-[0.3em] uppercase text-white/40 mb-8">
+            <p className="text-xs tracking-[0.3em] uppercase text-white/40 mb-6 text-center">
               Contexto del mercado
             </p>
           </AnimatedSection>
 
           <AnimatedSection delay={0.2}>
-            <p className="text-3xl md:text-5xl lg:text-6xl font-light text-center leading-tight">
+            <p className="text-2xl md:text-3xl lg:text-4xl font-light text-center leading-tight">
               Hoy no gana la marca mas sostenible,
               <br />
               <span className="font-semibold bg-gradient-to-r from-cyan-300 to-teal-300 bg-clip-text text-transparent">
@@ -318,7 +318,7 @@ export default function EcoalfPage() {
           </div>
 
           <AnimatedSection delay={0.6} className="mt-16 text-center px-4">
-            <p className="text-xl md:text-2xl font-light leading-relaxed text-white/90 max-w-4xl mx-auto">
+            <p className="text-sm md:text-base font-light leading-relaxed text-white/90 max-w-3xl mx-auto text-center">
               Este contexto obliga a ECOALF a competir no solo por valores, sino por <span className="font-medium text-cyan-300">relevancia cultural</span> y <span className="font-medium text-teal-300">deseo de marca</span>
             </p>
           </AnimatedSection>
@@ -338,15 +338,15 @@ export default function EcoalfPage() {
             transition={{ duration: 1 }}
             className="text-center mb-8"
           >
-            <div className="relative w-[200px] md:w-[300px] lg:w-[400px] aspect-[4/1] mx-auto mb-4">
+            <div className="relative w-[80vw] max-w-[1400px] h-[150px] md:h-[250px] lg:h-[350px] mx-auto mb-4 -my-8 md:-my-16">
               <Image
-                src="/images/ecoalf-logo-processed.png"
+                src="/images/ecoalf-logo-hq.png"
                 alt="ECOALF"
                 fill
                 className="object-contain"
               />
             </div>
-            <p className="text-white/60 text-lg md:text-xl lg:text-2xl tracking-[0.4em] mt-2">
+            <p className="text-white/60 text-sm md:text-base lg:text-lg tracking-[0.4em] mt-2">
               OCEAN WASTE
             </p>
           </motion.div>
@@ -399,13 +399,13 @@ export default function EcoalfPage() {
       </section>
 
       {/* SECTION 4: PROBLEMA CENTRAL */}
-      <section className="relative min-h-screen flex items-center justify-center px-6 py-24">
+      <section className="relative flex flex-col items-center justify-center px-6 py-12">
         <div className="relative z-10 max-w-5xl w-full space-y-24">
           <AnimatedSection className="text-center">
-            <p className="text-sm tracking-[0.3em] uppercase text-white/40 mb-8">
+            <p className="text-xs tracking-[0.3em] uppercase text-white/40 mb-6 text-center">
               Problema Estrategico
             </p>
-            <div className="max-w-4xl mx-auto space-y-6 text-xl md:text-2xl font-light leading-relaxed text-white/80">
+            <div className="max-w-3xl mx-auto space-y-4 text-sm md:text-base font-light leading-relaxed text-white/80 text-center">
               <p>ECOALF es una marca coherente, creíble y con un modelo de negocio diferencial real.</p>
               <p>Sin embargo, su principal riesgo no es operativo ni de producto, sino estratégico.</p>
               <p>La sostenibilidad, su principal bandera histórica, ya no es un territorio exclusivo.</p>
@@ -414,10 +414,10 @@ export default function EcoalfPage() {
           </AnimatedSection>
 
           <AnimatedSection className="text-center" delay={0.2}>
-            <p className="text-sm tracking-[0.3em] uppercase text-white/40 mb-8">
+            <p className="text-xs tracking-[0.3em] uppercase text-white/40 mb-6 text-center">
               Problema Central
             </p>
-            <p className="text-2xl md:text-4xl lg:text-5xl font-light leading-relaxed text-white">
+            <p className="text-lg md:text-2xl lg:text-3xl font-light leading-relaxed text-white text-center">
               Cómo proteger su valor diferencial y crecer en un mercado donde la sostenibilidad ya no basta para destacar.
             </p>
           </AnimatedSection>
@@ -425,10 +425,10 @@ export default function EcoalfPage() {
       </section>
 
       {/* SECTION 5: DAFO */}
-      <section className="relative min-h-screen flex flex-col items-center justify-center px-6 py-24">
+      <section className="relative flex flex-col items-center justify-center px-6 py-12">
         <div className="relative z-10 max-w-6xl w-full">
           <AnimatedSection className="text-center mb-16">
-            <h2 className="text-sm tracking-[0.3em] uppercase text-white/40">
+            <h2 className="text-xs tracking-[0.3em] uppercase text-white/40 text-center">
               Analisis DAFO
             </h2>
           </AnimatedSection>
@@ -447,7 +447,7 @@ export default function EcoalfPage() {
               },
               {
                 title: "Debilidades",
-                color: "from-rose-400 to-rose-500",
+                color: "from-teal-400 to-teal-500",
                 items: [
                   "Bajo top of mind frente a grandes marcas",
                   "Precio elevado para publicos jovenes",
@@ -462,15 +462,17 @@ export default function EcoalfPage() {
                   "Consumidor busca marcas con valores reales",
                   "Crecimiento del lifestyle consciente",
                   "Colaboraciones culturales con sentido",
+                  "Canales propios para construir comunidad",
                 ],
               },
               {
                 title: "Amenazas",
-                color: "from-amber-400 to-amber-500",
+                color: "from-sky-400 to-sky-500",
                 items: [
                   "Greenwashing de grandes marcas",
                   "Commoditizacion del discurso sostenible",
                   "Marcas premium entrando en territorio eco",
+                  "Consumidor infiel y sensible al precio",
                 ],
               },
             ].map((item, i) => (
@@ -494,68 +496,74 @@ export default function EcoalfPage() {
       </section>
 
       {/* SECTION 6: POSICIONAMIENTO */}
-      <section className="relative min-h-screen flex flex-col items-center justify-center px-6 py-24">
+      <section className="relative flex flex-col items-center justify-center px-6 py-12">
         <div className="relative z-10 max-w-6xl w-full">
           <AnimatedSection className="text-center mb-16">
-            <h2 className="text-sm tracking-[0.3em] uppercase text-white/40">
-              Posicionamiento
+            <h2 className="text-xs tracking-[0.3em] uppercase text-white/40 text-center">
+              SEGMENTACIÓN, TARGET Y POSICIONAMIENTO
             </h2>
           </AnimatedSection>
 
-          <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
-            {/* ANTES */}
+          <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-start">
+            {/* ACTUAL */}
             <AnimatedSection delay={0.2}>
               <div className="space-y-6">
-                <h3 className="text-2xl font-light text-white/50">Antes</h3>
-                <div className="p-8 rounded-2xl bg-white/5 border border-white/10">
-                  {[
-                    { label: "Target", value: "Consumidor etico racional" },
-                    { label: "Mensaje", value: "Marca sostenible, responsable y de calidad" },
-                    { label: "Eje", value: "La sostenibilidad como centro" },
-                  ].map((item, i) => (
-                    <div key={i} className="flex flex-col gap-2 mb-6 last:mb-0">
-                      <span className="text-xs uppercase tracking-[0.2em] text-white/40">
-                        {item.label}
-                      </span>
-                      <span className="text-white/60">{item.value}</span>
+                <h3 className="text-2xl font-light text-white/50">ACTUAL</h3>
+                <div className="p-8 rounded-2xl bg-white/5 border border-white/10 space-y-8">
+                  <div className="flex flex-col gap-2">
+                    <span className="text-xs uppercase tracking-[0.2em] text-white/40">Segmentación actual</span>
+                    <span className="text-white/60">Adultos urbanos, concienciados, con nivel adquisitivo medio alto</span>
+                  </div>
+
+                  <div className="flex flex-col gap-2">
+                    <span className="text-xs uppercase tracking-[0.2em] text-white/40">Target actual</span>
+                    <span className="text-white/60">Consumidor ético racional que compra por coherencia con sus valores</span>
+                  </div>
+
+                  <div className="flex flex-col gap-2">
+                    <span className="text-xs uppercase tracking-[0.2em] text-white/40">Posicionamiento actual</span>
+                    <div className="text-white/60">
+                      <p>Marca sostenible, responsable y de calidad</p>
+                      <p className="mt-1">La sostenibilidad es el eje central del mensaje</p>
                     </div>
-                  ))}
+                  </div>
+
+                  <div className="flex flex-col gap-2 pt-4 border-t border-white/5">
+                    <span className="text-xs uppercase tracking-[0.2em] text-white/40">Diagnóstico</span>
+                    <span className="text-white/60 italic">Posicionamiento sólido, pero poco emocional y con limitada capacidad de atracción para nuevos públicos.</span>
+                  </div>
                 </div>
               </div>
             </AnimatedSection>
 
-            {/* Arrow */}
-            <div className="hidden md:flex absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-20">
-              <motion.div
-                animate={{ x: [0, 8, 0] }}
-                transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY, ease: "easeInOut" }}
-                className="w-14 h-14 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 flex items-center justify-center"
-              >
-                <svg className="w-5 h-5 text-cyan-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                </svg>
-              </motion.div>
-            </div>
-
-            {/* DESPUES */}
+            {/* PROPUESTO */}
             <AnimatedSection delay={0.4}>
               <div className="space-y-6">
                 <h3 className="text-2xl font-semibold bg-gradient-to-r from-cyan-300 to-teal-300 bg-clip-text text-transparent">
-                  Despues
+                  PROPUESTO
                 </h3>
-                <GlassCard className="p-8 rounded-2xl border-cyan-500/30">
-                  {[
-                    { label: "Target", value: "Urban premium conscious (25-40 anos)" },
-                    { label: "Mensaje", value: "La marca premium que demuestra que el futuro ya esta aqui" },
-                    { label: "Eje", value: "Menos justificar, mas inspirar" },
-                  ].map((item, i) => (
-                    <div key={i} className="flex flex-col gap-2 mb-6 last:mb-0">
-                      <span className="text-xs uppercase tracking-[0.2em] text-cyan-400/70">
-                        {item.label}
-                      </span>
-                      <span className="text-white font-medium">{item.value}</span>
+                <GlassCard className="p-8 rounded-2xl border-cyan-500/30 space-y-8">
+                  <div className="flex flex-col gap-2">
+                    <span className="text-xs uppercase tracking-[0.2em] text-cyan-400/70">Nuevo target prioritario</span>
+                    <div className="text-white font-medium">
+                      <p className="text-lg">Urban premium conscious</p>
+                      <p className="text-white/80 font-normal mt-1">Personas de entre 25 y 40 años</p>
+                      <p className="text-white/80 font-normal mt-1">Valoran diseño, identidad, estatus simbólico y valores reales</p>
                     </div>
-                  ))}
+                  </div>
+
+                  <div className="flex flex-col gap-2">
+                    <span className="text-xs uppercase tracking-[0.2em] text-cyan-400/70">Nuevo posicionamiento</span>
+                    <div className="text-white font-medium">
+                      <p>ECOALF como la marca premium que demuestra que el futuro ya está aquí</p>
+                      <p className="text-white/80 font-normal mt-1">La sostenibilidad deja de explicarse y pasa a asumirse</p>
+                    </div>
+                  </div>
+
+                  <div className="flex flex-col gap-2 pt-4 border-t border-cyan-500/20">
+                    <span className="text-xs uppercase tracking-[0.2em] text-cyan-400/70">Idea clave</span>
+                    <span className="text-lg text-white font-semibold">Menos justificar, más inspirar.</span>
+                  </div>
                 </GlassCard>
               </div>
             </AnimatedSection>
@@ -564,12 +572,15 @@ export default function EcoalfPage() {
       </section>
 
       {/* SECTION 7: EJES ESTRATEGICOS */}
-      <section className="relative min-h-screen flex flex-col items-center justify-center px-6 py-24">
+      <section className="relative flex flex-col items-center justify-center px-6 py-12">
         <div className="relative z-10 max-w-4xl w-full">
           <AnimatedSection className="text-center mb-20">
-            <h2 className="text-sm tracking-[0.3em] uppercase text-white/40">
-              Ejes Estrategicos
+            <h2 className="text-xs tracking-[0.3em] uppercase text-white/40 mb-4 text-center">
+              EJES ESTRATÉJICOS DEL MARKETING
             </h2>
+            <p className="text-sm font-light text-white/80 max-w-2xl mx-auto leading-relaxed text-center">
+              Estos ejes responden directamente al diagnóstico previo y buscan trasladar la sostenibilidad desde el discurso hacia la experiencia de marca.
+            </p>
           </AnimatedSection>
 
           <div className="space-y-20">
@@ -612,13 +623,13 @@ export default function EcoalfPage() {
       </section>
 
       {/* SECTION 8: PLAN DE ACCION */}
-      <section className="relative min-h-screen flex flex-col items-center justify-center px-6 py-24">
+      <section className="relative flex flex-col items-center justify-center px-6 py-12">
         <div className="relative z-10 max-w-6xl w-full">
           <AnimatedSection className="text-center mb-16">
-            <h2 className="text-sm tracking-[0.3em] uppercase text-white/40">
+            <h2 className="text-xs tracking-[0.3em] uppercase text-white/40 text-center">
               Plan de Accion
             </h2>
-            <p className="text-white/30 text-sm mt-2">Las 4P del Marketing Mix</p>
+            <p className="text-white/30 text-xs mt-2 text-center">Las 4P del Marketing Mix</p>
           </AnimatedSection>
 
           <div className="grid md:grid-cols-2 gap-6">
@@ -681,51 +692,73 @@ export default function EcoalfPage() {
 
           <AnimatedSection delay={0.5} className="mt-12">
             <div className="p-6 rounded-xl bg-white/5 border border-white/10 text-center">
-              <p className="text-white/70 text-sm">
-                Prioridad en el corto plazo:{" "}
-                <span className="text-cyan-300 font-medium">comunicacion</span> y{" "}
-                <span className="text-teal-300 font-medium">producto</span> como palancas de deseo
+              <p className="text-white/90 text-sm md:text-base font-light leading-relaxed text-center">
+                La prioridad en el corto plazo debe centrarse en <span className="text-cyan-300 font-medium">comunicación</span> y <span className="text-teal-300 font-medium">producto</span>, como palancas principales de deseo
               </p>
             </div>
           </AnimatedSection>
         </div>
       </section>
 
+      {/* CAMPAIGN IMAGE */}
+      <section className="relative flex items-center justify-center px-6 py-24">
+        <AnimatedSection className="relative z-10 max-w-6xl w-full">
+          <div className="relative aspect-[3/2] md:aspect-[2/1] w-full rounded-2xl overflow-hidden border border-white/10 shadow-2xl">
+            <Image
+              src="/images/ecoalf-campaign.jpg"
+              alt="Ecoalf Campaign"
+              fill
+              className="object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
+          </div>
+        </AnimatedSection>
+      </section>
+
       {/* SECTION 9: SI YO FUERA CMO */}
-      <section className="relative min-h-screen flex flex-col items-center justify-center px-6 py-24">
+      <section className="relative flex flex-col items-center justify-center px-6 py-12">
         <div className="relative z-10 max-w-4xl w-full">
           <AnimatedSection className="text-center mb-12">
-            <h2 className="text-sm tracking-[0.3em] uppercase text-white/40">
+            <h2 className="text-xs tracking-[0.3em] uppercase text-white/40 text-center">
               Si yo fuera CMO de ECOALF
             </h2>
           </AnimatedSection>
 
           <AnimatedSection delay={0.2}>
             <GlassCard className="p-10 md:p-12 rounded-3xl mb-12">
-              <p className="text-lg md:text-xl leading-relaxed text-white/80">
-                Mi prioridad no seria reforzar su discurso sostenible, sino elevar su{" "}
+              <p className="text-sm md:text-base leading-relaxed text-white/80 text-center">
+                Si asumiera hoy la dirección de marketing de ECOALF, mi prioridad no sería reforzar su discurso sostenible, sino elevar su{" "}
                 <span className="text-cyan-300">relevancia cultural</span> y su capacidad de generar{" "}
                 <span className="text-teal-300">deseo</span>, manteniendo intacta su coherencia y credibilidad.
               </p>
+              <p className="text-sm md:text-base leading-relaxed text-white/90 mt-4 font-medium text-center">
+                La sostenibilidad debe ser el estándar silencioso.
+                <br />
+                El deseo, la verdadera palanca de crecimiento.
+              </p>
             </GlassCard>
+          </AnimatedSection>
+
+          <AnimatedSection delay={0.4} className="mb-8">
+            <h3 className="text-sm md:text-base font-light text-white/50 text-center">Tres decisiones claras</h3>
           </AnimatedSection>
 
           <div className="space-y-6">
             {[
               {
                 num: "1",
-                title: "Redefinir la comunicacion",
-                desc: "Menos pedagogia, mas aspiracion; menos justificar, mas inspirar",
+                title: "Convertir el diseño en el primer driver de deseo",
+                desc: "Invertiría en cápsulas con una dirección creativa más marcada, capaces de competir visualmente con marcas premium, sin necesidad de justificar su origen sostenible en cada mensaje.",
               },
               {
                 num: "2",
-                title: "Elevar la marca a territorio cultural",
-                desc: "Alianzas con creadores, artistas y proyectos que representen ese futuro que ECOALF encarna",
+                title: "Pasar de comunicar impacto a crear símbolos culturales",
+                desc: "Apostaría por colaboraciones selectivas con referentes culturales y creativos que conviertan a ECOALF en un símbolo del consumo consciente urbano, no solo en una marca responsable.",
               },
               {
                 num: "3",
-                title: "Activar la comunidad",
-                desc: "Convertir clientes en embajadores reales, co-creando contenido y experiencias",
+                title: "Construir comunidad antes que volumen",
+                desc: "Priorizaría la creación de una comunidad activa y comprometida, entendiendo la fidelidad como pertenencia y no como repetición de compra.",
               },
             ].map((item, i) => (
               <AnimatedSection key={i} delay={0.3 + i * 0.1}>
@@ -745,10 +778,10 @@ export default function EcoalfPage() {
       </section>
 
       {/* SECTION 10: CRITERIOS DE EXITO */}
-      <section className="relative min-h-screen flex flex-col items-center justify-center px-6 py-24">
+      <section className="relative flex flex-col items-center justify-center px-6 py-12">
         <div className="relative z-10 max-w-5xl w-full">
           <AnimatedSection className="text-center mb-16">
-            <h2 className="text-sm tracking-[0.3em] uppercase text-white/40">
+            <h2 className="text-xs tracking-[0.3em] uppercase text-white/40 text-center">
               Criterios de Exito
             </h2>
           </AnimatedSection>
@@ -756,16 +789,31 @@ export default function EcoalfPage() {
           <div className="grid md:grid-cols-3 gap-6">
             {[
               {
-                category: "Percepcion",
-                items: ["Incremento en brand desire", "Mayor asociacion con innovacion", "Reduccion de percepcion de precio alto"],
+                category: "Marca",
+                items: [
+                  "Incremento Top of Mind en mercados clave",
+                  "Mayor reconocimiento espontáneo vs competidores",
+                  "Mayor percepción aspiracional",
+                  "Asociación con diseño y lifestyle"
+                ],
               },
               {
-                category: "Engagement",
-                items: ["Crecimiento de comunidad activa", "Mayor interaccion con contenido", "Aumento de UGC"],
+                category: "Comunidad",
+                items: [
+                  "Crecimiento engagement en canales propios",
+                  "Interacción cualitativa con contenido",
+                  "Más clientes recurrentes y miembros activos",
+                  "Alta participación en eventos"
+                ],
               },
               {
                 category: "Negocio",
-                items: ["Incremento de ventas directas", "Mayor recurrencia de compra", "Expansion de audiencia"],
+                items: [
+                  "Tráfico cualificado online",
+                  "Mejor conversión en productos clave",
+                  "Mayor ticket medio en colecciones clave",
+                  "Mayor peso del canal directo"
+                ],
               },
             ].map((group, i) => (
               <AnimatedSection key={i} delay={0.1 * i}>
@@ -785,26 +833,60 @@ export default function EcoalfPage() {
               </AnimatedSection>
             ))}
           </div>
+
+          <AnimatedSection delay={0.4} className="mt-12 grid md:grid-cols-2 gap-6">
+            <GlassCard className="p-8 rounded-2xl border-teal-500/20">
+              <h3 className="text-xs uppercase tracking-[0.2em] text-teal-300 mb-4">Indicador Clave Transversal</h3>
+              <p className="text-white/90 font-light leading-relaxed">
+                Capacidad de la marca para generar deseo sin necesidad de justificar su sostenibilidad.
+              </p>
+            </GlassCard>
+            <GlassCard className="p-8 rounded-2xl border-cyan-500/20">
+              <h3 className="text-xs uppercase tracking-[0.2em] text-cyan-300 mb-4">Indicador Personal</h3>
+              <p className="text-white/90 font-light leading-relaxed">
+                Que un consumidor recomiende ECOALF por lo que representa, no por lo que recicla.
+              </p>
+            </GlassCard>
+          </AnimatedSection>
         </div>
       </section>
 
       {/* SECTION 11: CIERRE */}
-      <section className="relative min-h-screen flex flex-col items-center justify-center px-6 py-24">
+      <section className="relative flex flex-col items-center justify-center px-6 py-12">
         <AnimatedSection className="relative z-10 max-w-4xl text-center">
-          <motion.p
+          <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
-            className="text-3xl md:text-5xl lg:text-6xl font-light leading-tight mb-16"
+            className="space-y-12 mb-16"
           >
-            El reto de ECOALF no es demostrar que es sostenible.
-            <br />
-            <span className="font-semibold bg-gradient-to-r from-cyan-300 via-teal-300 to-cyan-300 bg-clip-text text-transparent">
-              Es demostrar que el futuro ya esta aqui
-            </span>
-            <br />
-            <span className="text-white/60">y que ellos lo estan construyendo.</span>
-          </motion.p>
+            <p className="text-lg md:text-xl lg:text-2xl font-light leading-tight text-white">
+              ECOALF no necesita ser más sostenible.
+              <br />
+              Necesita ser más deseada sin perder su verdad.
+            </p>
+
+            <div className="space-y-1 text-sm md:text-base text-white/60 font-light">
+              <p>Convertir la sostenibilidad en el estándar silencioso</p>
+              <p>Construir una marca premium aspiracional con impacto real</p>
+            </div>
+
+            <p className="text-3xl md:text-5xl lg:text-6xl font-semibold tracking-wide pt-8 bg-gradient-to-r from-cyan-300 via-teal-300 to-cyan-300 bg-clip-text text-transparent">
+              El futuro no se explica. Se viste.
+            </p>
+
+            <div className="relative w-full max-w-2xl aspect-[16/9] mx-auto mt-12"
+              style={{ maskImage: 'radial-gradient(circle at center, black 30%, transparent 80%)', WebkitMaskImage: 'radial-gradient(circle at center, black 30%, transparent 80%)' }}>
+              <Image
+                src="/images/ecoalf-footer-final-hq.png"
+                alt="ECOALF"
+                fill
+                className="object-cover"
+              />
+            </div>
+
+
+          </motion.div>
 
           <motion.div
             initial={{ opacity: 0 }}

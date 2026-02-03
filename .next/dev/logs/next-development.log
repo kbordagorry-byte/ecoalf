@@ -1347,3 +1347,271 @@ It can also happen if the client has a browser extension installed which messes 
 [00:53:28.165] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
 [00:53:28.165] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770134378842}
 [00:53:52.639] Server  LOG      ✓ Compiled in 80ms
+[00:55:16.883] Server  LOG      ✓ Compiled in 43ms
+[00:56:32.751] Server  LOG      ✓ Compiled in 49ms
+[01:01:14.444] Server  LOG      ✓ Compiled in 117ms
+[01:04:23.810] Server  LOG      ✓ Compiled in 153ms
+[01:07:11.810] Server  LOG      ✓ Compiled in 72ms
+[01:09:22.190] Server  LOG      ✓ Compiled in 143ms
+[01:11:03.548] Server  LOG      ✓ Compiled in 165ms
+[01:12:18.402] Server  LOG      ✓ Compiled in 79ms
+[01:15:11.414] Server  LOG      ✓ Compiled in 145ms
+[01:16:48.273] Server  LOG      ✓ Compiled in 99ms
+[01:18:03.862] Server  LOG      ✓ Compiled in 128ms
+[01:21:25.245] Server  LOG      ✓ Compiled in 150ms
+[01:25:34.004] Server  LOG      ✓ Compiled in 165ms
+[01:27:39.648] Server  LOG      ✓ Compiled in 141ms
+[01:29:52.849] Server  LOG      ✓ Compiled in 70ms
+[01:31:34.452] Server  LOG      ✓ Compiled in 160ms
+[01:33:05.092] Server  LOG      ✓ Compiled in 46ms
+[01:34:24.306] Server  LOG      ✓ Compiled in 108ms
+[01:34:25.229] Browser ERROR   ./app/page.tsx:889:24
+Parsing ecmascript source code failed
+  887 |
+  888 |
+> 889 |           </motion.div>
+      |                        ^
+> 890 |
+      | ^
+> 891 |           <motion.div
+      | ^^^^^^^^^^^
+  892 |             initial={{ opacity: 0 }}
+  893 |             whileInView={{ opacity: 1 }}
+  894 |             transition={{ duration: 1, delay: 0.5 }}
+
+Expected '</', got 'jsx text (
+
+          )'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:34:54.728] Server  ERROR    ⨯ ./app/page.tsx:889:24
+Parsing ecmascript source code failed
+  887 |
+  888 |
+> 889 |           </motion.div>
+      |                        ^
+> 890 |
+      | ^
+> 891 |           <motion.div
+      | ^^^^^^^^^^^
+  892 |             initial={{ opacity: 0 }}
+  893 |             whileInView={{ opacity: 1 }}
+  894 |             transition={{ duration: 1, delay: 0.5 }}
+
+Expected '</', got 'jsx text (
+
+          )'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+[01:34:54.856] Browser ERROR   ./app/page.tsx:889:24
+Parsing ecmascript source code failed
+  887 |
+  888 |
+> 889 |           </motion.div>
+      |                        ^
+> 890 |
+      | ^
+> 891 |           <motion.div
+      | ^^^^^^^^^^^
+  892 |             initial={{ opacity: 0 }}
+  893 |             whileInView={{ opacity: 1 }}
+  894 |             transition={{ duration: 1, delay: 0.5 }}
+
+Expected '</', got 'jsx text (
+
+          )'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:34:55.551] Browser ERROR   ./app/page.tsx:889:24
+Parsing ecmascript source code failed
+  887 |
+  888 |
+> 889 |           </motion.div>
+      |                        ^
+> 890 |
+      | ^
+> 891 |           <motion.div
+      | ^^^^^^^^^^^
+  892 |             initial={{ opacity: 0 }}
+  893 |             whileInView={{ opacity: 1 }}
+  894 |             transition={{ duration: 1, delay: 0.5 }}
+
+Expected '</', got 'jsx text (
+
+          )'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:34:55.551] Browser ERROR   ./app/page.tsx:889:24
+Parsing ecmascript source code failed
+  887 |
+  888 |
+> 889 |           </motion.div>
+      |                        ^
+> 890 |
+      | ^
+> 891 |           <motion.div
+      | ^^^^^^^^^^^
+  892 |             initial={{ opacity: 0 }}
+  893 |             whileInView={{ opacity: 1 }}
+  894 |             transition={{ duration: 1, delay: 0.5 }}
+
+Expected '</', got 'jsx text (
+
+          )'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:34:55.707] Browser ERROR   uncaughtError: Error: ./app/page.tsx:889:24
+Parsing ecmascript source code failed
+  887 |
+  888 |
+> 889 |           </motion.div>
+      |                        ^
+> 890 |
+      | ^
+> 891 |           <motion.div
+      | ^^^^^^^^^^^
+  892 |             initial={{ opacity: 0 }}
+  893 |             whileInView={{ opacity: 1 }}
+  894 |             transition={{ duration: 1, delay: 0.5 }}
+
+Expected '</', got 'jsx text (
+
+          )'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+[01:34:55.861] Browser ERROR   ./app/page.tsx:889:24
+Parsing ecmascript source code failed
+  887 |
+  888 |
+> 889 |           </motion.div>
+      |                        ^
+> 890 |
+      | ^
+> 891 |           <motion.div
+      | ^^^^^^^^^^^
+  892 |             initial={{ opacity: 0 }}
+  893 |             whileInView={{ opacity: 1 }}
+  894 |             transition={{ duration: 1, delay: 0.5 }}
+
+Expected '</', got 'jsx text (
+
+          )'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:34:55.861] Browser ERROR   ./app/page.tsx:889:24
+Parsing ecmascript source code failed
+  887 |
+  888 |
+> 889 |           </motion.div>
+      |                        ^
+> 890 |
+      | ^
+> 891 |           <motion.div
+      | ^^^^^^^^^^^
+  892 |             initial={{ opacity: 0 }}
+  893 |             whileInView={{ opacity: 1 }}
+  894 |             transition={{ duration: 1, delay: 0.5 }}
+
+Expected '</', got 'jsx text (
+
+          )'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:36:39.795] Server  LOG      ✓ Compiled in 40ms
+[01:36:40.197] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:36:41.230] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:36:41.230] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:36:41.230] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770136971128}
+[01:37:25.772] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[01:37:27.360] Browser WARN    Image with src "/images/ecoalf-logo-processed.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[01:41:45.680] Server  LOG      ✓ Compiled in 51ms
+[01:49:13.704] Server  LOG      ✓ Compiled in 48ms
+[01:49:37.808] Server  LOG      ✓ Compiled in 29ms
+[01:51:51.233] Server  LOG      ✓ Compiled in 100ms
+[01:52:32.406] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[01:52:32.406] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:52:32.406] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:52:32.406] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770137923074}
+[01:53:18.118] Server  LOG      ✓ Compiled in 102ms
+[01:56:26.975] Server  LOG      ✓ Compiled in 89ms
+[01:57:50.042] Server  LOG      ✓ Compiled in 106ms
+[01:58:27.112] Server  LOG      ✓ Compiled in 75ms
+[01:59:51.558] Server  LOG      ✓ Compiled in 138ms
+[02:01:18.406] Server  LOG      ✓ Compiled in 400ms
+[02:04:08.535] Server  LOG      ✓ Compiled in 143ms
+[02:04:42.835] Server  LOG      ✓ Compiled in 88ms
+[02:05:13.021] Server  LOG      ✓ Compiled in 90ms
+[02:06:02.731] Server  LOG      ✓ Compiled in 101ms
+[02:08:30.677] Server  LOG      ✓ Compiled in 85ms
+[02:08:53.699] Server  LOG      ✓ Compiled in 26ms
+[02:10:00.485] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:10:00.646] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[02:10:00.646] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[02:10:00.646] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[02:10:00.646] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770138971323}
+[02:10:01.466] Browser WARN    Image with src "/images/ecoalf-campaign.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[02:10:51.128] Server  LOG      ✓ Compiled in 53ms
+[02:13:35.243] Server  LOG      ✓ Compiled in 105ms
+[02:16:55.609] Server  LOG      ✓ Compiled in 101ms
