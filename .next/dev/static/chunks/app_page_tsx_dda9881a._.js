@@ -1553,7 +1553,7 @@ function MainContent() {
                                 },
                                 {
                                     num: "02",
-                                    title: "De marca sostenible a simbolo cultural",
+                                    title: "De marca sostenible a símbolo cultural",
                                     desc: "Representar una forma de estar en el mundo"
                                 },
                                 {
@@ -1683,7 +1683,7 @@ function MainContent() {
                                     ]
                                 },
                                 {
-                                    title: "Distribucion",
+                                    title: "Distribución",
                                     subtitle: "Para controlar experiencia y construir marca desde el canal directo",
                                     color: "from-emerald-400 to-emerald-500",
                                     items: [
@@ -1693,7 +1693,7 @@ function MainContent() {
                                     ]
                                 },
                                 {
-                                    title: "Comunicacion",
+                                    title: "Comunicación",
                                     subtitle: "Para transformar credibilidad en aspiración",
                                     color: "from-sky-400 to-sky-500",
                                     items: [
