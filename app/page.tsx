@@ -101,7 +101,7 @@ function AnimatedSection({
   )
 }
 
-export default function EcoalfPage() {
+function MainContent() {
   const containerRef = useRef<HTMLDivElement>(null)
   const productRef = useRef<HTMLDivElement>(null)
 
@@ -1009,6 +1009,84 @@ export default function EcoalfPage() {
           </motion.div>
         </AnimatedSection>
       </section>
-    </main >
+    </main>
   )
 }
+
+export default function EcoalfPage() {
+  const [isAuthenticated, setIsAuthenticated] = React.useState(false)
+  const [passwordInput, setPasswordInput] = React.useState("")
+  const [error, setError] = React.useState(false)
+
+  const handleAuth = (e: React.FormEvent) => {
+    e.preventDefault()
+    if (passwordInput === "OBS2026##") {
+      setIsAuthenticated(true)
+    } else {
+      setError(true)
+      setTimeout(() => setError(false), 2000)
+    }
+  }
+
+  if (!isAuthenticated) {
+    return (
+      <main className="relative min-h-screen bg-[#051c24] text-white flex flex-col items-center justify-center p-6 overflow-hidden">
+        {/* Background elements to match the site */}
+        <div className="fixed inset-0 bg-gradient-to-b from-[#051c24] via-[#0a3d4f] to-[#062c38] pointer-events-none" />
+        <div className="fixed inset-0 pointer-events-none">
+          <FloatingBubbles count={15} opacity={0.1} />
+        </div>
+
+        <AnimatedSection className="relative z-10 w-full max-w-md">
+          <GlassCard className="p-10 md:p-12 rounded-[2.5rem] flex flex-col items-center">
+            <div className="relative w-32 h-8 mb-8">
+              <Image
+                src="/images/obs-logo.png"
+                alt="OBS Business School"
+                fill
+                className="object-contain brightness-0 invert"
+                priority
+              />
+            </div>
+
+            <h2 className="text-sm tracking-[0.4em] uppercase text-white/40 mb-8">
+              Propuesta Reservada
+            </h2>
+
+            <form onSubmit={handleAuth} className="w-full space-y-4">
+              <div className="relative">
+                <input
+                  type="password"
+                  value={passwordInput}
+                  onChange={(e) => setPasswordInput(e.target.value)}
+                  placeholder="Contraseña"
+                  className={`w-full bg-white/5 border ${error ? 'border-red-500/50' : 'border-white/10'} rounded-xl py-3 px-4 text-center text-white placeholder-white/20 focus:outline-none focus:border-cyan-500/30 transition-all`}
+                  autoFocus
+                />
+                {error && (
+                  <motion.p
+                    initial={{ opacity: 0, y: -10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    className="absolute -bottom-6 left-0 right-0 text-[10px] text-red-400 uppercase tracking-widest text-center"
+                  >
+                    Contraseña incorrecta
+                  </motion.p>
+                )}
+              </div>
+
+              <button
+                type="submit"
+                className="w-full bg-white/10 hover:bg-white/20 border border-white/10 rounded-xl py-3 text-sm tracking-[0.2em] uppercase transition-all mt-4"
+              >
+                Acceder
+              </button>
+            </form>
+          </GlassCard>
+        </AnimatedSection>
+      </main>
+    )
+  }
+
+  return <MainContent />
+}
+
