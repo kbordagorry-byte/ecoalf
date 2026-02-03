@@ -934,7 +934,7 @@ export default function EcoalfPage() {
                 El reto estratégico de la marca no es reforzar su discurso sostenible, sino transformar su credibilidad en deseo, consolidando un posicionamiento premium aspiracional sin perder coherencia ni propósito. La sostenibilidad debe actuar como un estándar implícito y no como el eje central de la comunicación.
               </p>
               <p className="text-lg md:text-xl leading-relaxed text-white font-medium text-center">
-                La estrategia se articula en cuatro palancas clave: <span className="text-cyan-300">diseño</span> como generador de deseo, <span className="text-teal-300">relevancia cultural</span> como elemento diferenciador, <span className="text-emerald-300">comunidad</span> como motor de fidelización y <span className="text-sky-300">canal directo</span> como espacio de control de la experiencia de marca.
+                La estrategia se articula en cuatro palancas clave: <span className="text-cyan-300">diseño</span> como generador de deseo, <span className="text-teal-300">relevancia cultural</span> como elemento diferenciador, <span className="text-emerald-300">comunidad</span> como motor de fidelización y <span className="text-sky-300">canal directo</span> como espacio de control de la experiencia de marca, permitiendo captar nuevos públicos, fidelizar a los clientes actuales y crecer mediante mayor recurrencia y ticket medio, sin erosionar el posicionamiento premium.
               </p>
             </GlassCard>
           </AnimatedSection>

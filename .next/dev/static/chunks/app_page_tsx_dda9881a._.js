@@ -2395,7 +2395,7 @@ function EcoalfPage() {
                                                 lineNumber: 937,
                                                 columnNumber: 309
                                             }, this),
-                                            " como espacio de control de la experiencia de marca."
+                                            " como espacio de control de la experiencia de marca, permitiendo captar nuevos públicos, fidelizar a los clientes actuales y crecer mediante mayor recurrencia y ticket medio, sin erosionar el posicionamiento premium."
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.tsx",
