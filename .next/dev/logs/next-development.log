@@ -1715,3 +1715,32 @@ Import traces:
 [07:03:38.529] Server  LOG      ✓ Compiled in 145ms
 [07:12:07.419] Server  LOG      ✓ Compiled in 121ms
 [07:15:54.073] Server  LOG      ✓ Compiled in 111ms
+[07:27:19.340] Server  LOG      ✓ Compiled in 208ms
+[07:28:52.727] Server  LOG      ✓ Compiled in 122ms
+[07:30:02.061] Server  LOG      ✓ Compiled in 112ms
+[07:32:30.278] Server  LOG      ✓ Compiled in 173ms
+[07:33:52.724] Server  LOG      ✓ Compiled in 244ms
+[07:33:53.703] Browser ERROR   ./app/page.tsx:197:11
+Parsing ecmascript source code failed
+  195 |           animate={{ opacity: 1, y: 0 }}
+  196 |           transition={{ duration: 1, delay: 0.5 }}
+> 197 |           <p className="text-xl md:text-2xl tracking-[0.6em] uppercase text-white/40 mt-4">
+      |           ^
+  198 |           Propuesta estratégica de marketing
+  199 |         </p>
+  200 |       </motion.div>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[07:34:53.702] Browser DEBUG   TSS: Counted history being replaced
+[07:34:53.702] Browser DEBUG   TSS: Caught history
+[07:34:53.702] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1770155627749}
+[07:37:11.829] Server  LOG      ✓ Compiled in 154ms

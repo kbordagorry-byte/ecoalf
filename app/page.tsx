@@ -163,7 +163,7 @@ export default function EcoalfPage() {
       </div>
 
       {/* SECTION 1: PORTADA */}
-      <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden">
+      <section className="relative min-h-screen flex flex-col items-center pt-16 pb-32 overflow-hidden">
         {/* Light rays from top */}
         <div className="absolute inset-0 overflow-hidden">
           {[...Array(5)].map((_, i) => (
@@ -189,28 +189,46 @@ export default function EcoalfPage() {
           ))}
         </div>
 
+        {/* OBS Branding */}
+        <motion.div
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, delay: 0.5 }}
+          className="relative flex flex-col items-center gap-1 text-center px-6 mb-2 z-10"
+        >
+          <div className="relative w-40 h-10 mb-2">
+            <Image
+              src="/images/obs-logo.png"
+              alt="OBS Business School"
+              fill
+              className="object-contain brightness-0 invert"
+              priority
+            />
+          </div>
+          <p className="text-[10px] md:text-xs tracking-[0.2em] uppercase text-white/30 font-light max-w-lg">
+            Marketing operativo sostenible y estrategias de omnicanalidad
+          </p>
+          <p className="text-[9px] tracking-[0.4em] uppercase text-cyan-400 font-medium">
+            Tarea Individual
+          </p>
+          <p className="text-xl md:text-2xl tracking-[0.6em] uppercase text-white/40 mt-4">
+            Propuesta estratégica de marketing
+          </p>
+        </motion.div>
+
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.2 }}
           className="relative z-10 text-center px-6 max-w-4xl"
         >
-          <motion.p
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
-            className="text-xl md:text-2xl tracking-[0.4em] uppercase text-white/40 mb-0"
-          >
-            Propuesta estrategica de marketing
-          </motion.p>
-
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1, delay: 0.6 }}
             className="mb-0 flex justify-center"
           >
-            <div className="relative w-[90vw] max-w-[1600px] h-[200px] md:h-[300px] lg:h-[400px] -my-12 md:-my-16 lg:-my-24">
+            <div className="relative w-[90vw] max-w-[1600px] h-[200px] md:h-[300px] lg:h-[400px] mt-[-3rem] md:mt-[-5rem] lg:mt-[-8rem]">
               <Image
                 src="/images/ecoalf-logo-hq.png"
                 alt="ECOALF"
@@ -225,7 +243,7 @@ export default function EcoalfPage() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.9 }}
-            className="text-4xl md:text-5xl lg:text-6xl font-extralight text-white/80"
+            className="text-3xl md:text-4xl lg:text-5xl font-extralight text-white/80 mt-[-2rem] md:mt-[-4rem] lg:mt-[-6rem]"
           >
             De marca sostenible
             <br />
