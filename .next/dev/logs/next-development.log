@@ -1663,3 +1663,53 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [02:50:07.166] Server  LOG      ✓ Compiled in 55ms
 [02:51:10.343] Server  LOG      ✓ Compiled in 39ms
 [02:52:27.063] Server  LOG      ✓ Compiled in 279ms
+[06:12:50.915] Server  LOG      ✓ Compiled in 111ms
+[06:15:11.661] Server  LOG      ✓ Compiled in 45ms
+[06:16:09.341] Server  LOG      ✓ Compiled in 42ms
+[06:17:15.664] Server  LOG      ✓ Compiled in 75ms
+[06:18:09.451] Server  LOG      ✓ Compiled in 58ms
+[06:18:22.926] Server  LOG      ✓ Compiled in 39ms
+[06:20:45.179] Server  LOG      ✓ Compiled in 63ms
+[06:21:35.242] Server  LOG      ✓ Compiled in 65ms
+[06:22:54.001] Server  LOG      ✓ Compiled in 69ms
+[06:23:41.395] Server  LOG      ✓ Compiled in 66ms
+[06:26:39.126] Server  LOG      ✓ Compiled in 65ms
+[06:27:28.314] Server  LOG      ✓ Compiled in 46ms
+[06:28:29.712] Server  LOG      ✓ Compiled in 55ms
+[06:34:47.157] Server  LOG      ✓ Compiled in 50ms
+[06:35:58.850] Server  LOG      ✓ Compiled in 87ms
+[06:36:56.067] Server  LOG      ✓ Compiled in 75ms
+[06:47:16.448] Server  LOG      ✓ Compiled in 144ms
+[06:47:16.553] Browser ERROR   ./app/page.tsx:699:27
+Parsing ecmascript source code failed
+  697 |             </p>
+  698 |           </div>
+> 699 |         </AnimatedSection>
+      |                           ^
+> 700 |
+      | ^
+> 701 |         <AnimatedSection delay={0.3} className="mt-20">
+      | ^^^^^^^^^
+  702 |           <p className="text-xl md:text-2xl tracking-[0.4em] uppercase text-white/40 text-center mb-12">
+  703 |             Acciones Específicas
+  704 |           </p>
+
+Expected '</', got 'jsx text (
+
+        )'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[06:47:36.666] Server  LOG      ✓ Compiled in 128ms
+[06:47:37.702] Browser DEBUG   TSS: Counted history being replaced
+[06:47:37.702] Browser DEBUG   TSS: Caught history
+[06:47:37.702] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {}
+[06:48:50.643] Server  LOG      ✓ Compiled in 87ms
+[06:52:48.007] Server  LOG      ✓ Compiled in 79ms
+[07:03:38.529] Server  LOG      ✓ Compiled in 145ms

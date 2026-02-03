@@ -303,10 +303,10 @@ export default function EcoalfPage() {
 
           <div className="grid md:grid-cols-2 gap-6 mt-16">
             {[
-              "La sostenibilidad ha dejado de ser una ventaja competitiva para convertirse en un estandar aspiracional.",
-              "El consumidor afirma valorar la sostenibilidad, pero sus decisiones siguen guiadas por diseno, marca y precio.",
-              "Grandes marcas han incorporado el discurso sostenible, diluyendo la diferenciacion de los pioneros.",
-              "Existe una clara saturacion de mensajes eticos y una creciente fatiga del discurso verde.",
+              "La sostenibilidad ha dejado de ser una ventaja competitiva para convertirse en un estándar aspiracional dentro de la industria de la moda.",
+              "Grandes marcas han incorporado el discurso sostenible en su comunicación, aunque no sea el eje real de su modelo de negocio, diluyendo la diferenciación de los pioneros.",
+              "El consumidor afirma valorar la sostenibilidad, pero sus decisiones finales siguen estando guiadas principalmente por el diseño, la marca y el precio.",
+              "Existe una clara saturación de mensajes éticos y una creciente fatiga del discurso verde.",
             ].map((text, i) => (
               <AnimatedSection key={i} delay={0.1 * i}>
                 <GlassCard className="p-8 rounded-2xl h-full">
@@ -439,7 +439,7 @@ export default function EcoalfPage() {
                 title: "Fortalezas",
                 color: "from-cyan-400 to-cyan-500",
                 items: [
-                  "Proposito autentico y pionero",
+                  "Propósito auténtico y pionero",
                   "Modelo de upcycling real y trazable",
                   "Alta credibilidad frente al greenwashing",
                   "Producto de calidad con posicionamiento premium",
@@ -450,9 +450,9 @@ export default function EcoalfPage() {
                 color: "from-teal-400 to-teal-500",
                 items: [
                   "Bajo top of mind frente a grandes marcas",
-                  "Precio elevado para publicos jovenes",
-                  "Comunicacion excesivamente racional",
+                  "Precio elevado para públicos jóvenes",
                   "Diseño percibido como poco aspiracional en algunos segmentos",
+                  "Comunicación excesivamente racional",
                 ],
               },
               {
@@ -461,8 +461,8 @@ export default function EcoalfPage() {
                 items: [
                   "Consumidor busca marcas con valores reales",
                   "Crecimiento del lifestyle consciente",
-                  "Colaboraciones culturales con sentido",
                   "Canales propios para construir comunidad",
+                  "Colaboraciones culturales con sentido",
                 ],
               },
               {
@@ -470,9 +470,9 @@ export default function EcoalfPage() {
                 color: "from-sky-400 to-sky-500",
                 items: [
                   "Greenwashing de grandes marcas",
-                  "Commoditizacion del discurso sostenible",
-                  "Marcas premium entrando en territorio eco",
+                  "Commoditización del discurso sostenible",
                   "Consumidor infiel y sensible al precio",
+                  "Marcas premium entrando en territorio eco",
                 ],
               },
             ].map((item, i) => (
@@ -636,38 +636,43 @@ export default function EcoalfPage() {
             {[
               {
                 title: "Producto",
+                subtitle: "Para elevar deseo y competir visualmente en premium",
                 color: "from-cyan-400 to-cyan-500",
                 items: [
-                  "Capsulas con diseno mas fashion forward",
-                  "Colaboraciones con referentes culturales",
-                  "Productos iconicos reconocibles",
+                  "Desarrollo de cápsulas con diseño más fashion forward",
+                  "Colaboraciones con diseñadores y referentes culturales coherentes",
+                  "Creación de productos icónicos fácilmente reconocibles",
                 ],
               },
               {
                 title: "Precio",
+                subtitle: "Para proteger percepción premium y sostener margen",
                 color: "from-teal-400 to-teal-500",
                 items: [
-                  "Mantener posicionamiento premium",
-                  "Productos de entrada aspiracionales",
-                  "Transparencia como confianza",
+                  "Mantenimiento del posicionamiento premium",
+                  "Introducción de productos de entrada aspiracionales",
+                  "Transparencia de precios como refuerzo de confianza, no como excusa",
                 ],
               },
               {
                 title: "Distribucion",
+                subtitle: "Para controlar experiencia y construir marca desde el canal directo",
                 color: "from-emerald-400 to-emerald-500",
                 items: [
                   "Refuerzo del canal directo online",
-                  "Tiendas como espacios de experiencia",
-                  "Pop ups culturales estrategicos",
+                  "Tiendas físicas como espacios de experiencia y storytelling",
+                  "Pop ups culturales en ciudades estratégicas",
                 ],
               },
               {
                 title: "Comunicacion",
+                subtitle: "Para transformar credibilidad en aspiración",
                 color: "from-sky-400 to-sky-500",
                 items: [
-                  "Menos datos, mas historias humanas",
-                  "Embajadores culturales con credibilidad",
-                  "Contenido aspiracional con valores implicitos",
+                  "Menos datos técnicos y más historias humanas",
+                  "Uso de embajadores culturales con credibilidad",
+                  "Instagram como plataforma de identidad de marca",
+                  "Contenido aspiracional con valores implícitos",
                 ],
               },
             ].map((item, i) => (
@@ -675,7 +680,14 @@ export default function EcoalfPage() {
                 <GlassCard className="p-8 rounded-2xl h-full">
                   <div className="flex items-center gap-4 mb-6">
                     <div className={`h-1 w-12 bg-gradient-to-r ${item.color} rounded-full`} />
-                    <h3 className="text-xl font-semibold text-white">{item.title}</h3>
+                    <div>
+                      <h3 className="text-xl font-semibold text-white">{item.title}</h3>
+                      {"subtitle" in item && (
+                        <p className="text-xs text-white/50 mt-1 font-light leading-snug">
+                          {item.subtitle}
+                        </p>
+                      )}
+                    </div>
                   </div>
                   <ul className="space-y-4">
                     {item.items.map((text, j) => (
@@ -689,6 +701,59 @@ export default function EcoalfPage() {
               </AnimatedSection>
             ))}
           </div>
+
+
+          <AnimatedSection delay={0.3} className="mt-20">
+            <p className="text-xl md:text-2xl tracking-[0.4em] uppercase text-white/40 text-center mb-12">
+              Acciones Específicas
+            </p>
+            <div className="grid md:grid-cols-3 gap-6">
+              {[
+                {
+                  title: "Captación",
+                  color: "from-cyan-400 to-cyan-500",
+                  items: [
+                    "Campañas always on con creatividad aspiracional y mensajes implícitos de sostenibilidad",
+                    "Colaboraciones cápsula como “momentos de entrada” a marca",
+                    "Paid social y search orientado a audiencias lookalike de premium lifestyle",
+                  ],
+                },
+                {
+                  title: "Fidelización",
+                  color: "from-teal-400 to-teal-500",
+                  items: [
+                    "Programa de comunidad con acceso anticipado y eventos, no descuentos",
+                    "Contenidos post compra y trazabilidad como experiencia de marca",
+                    "Activación CRM con storytelling de producto y lanzamientos por segmentos",
+                  ],
+                },
+                {
+                  title: "Crecimiento",
+                  color: "from-emerald-400 to-emerald-500",
+                  items: [
+                    "Cross sell por looks y cápsulas limitadas",
+                    "Up sell a piezas icónicas premium",
+                    "Recompra basada en drops, no en promociones",
+                  ],
+                },
+              ].map((item, i) => (
+                <GlassCard key={i} className="p-8 rounded-2xl h-full">
+                  <div className="flex items-center gap-4 mb-6">
+                    <div className={`h-1 w-12 bg-gradient-to-r ${item.color} rounded-full`} />
+                    <h3 className="text-xl font-semibold text-white">{item.title}</h3>
+                  </div>
+                  <ul className="space-y-4">
+                    {item.items.map((text, j) => (
+                      <li key={j} className="text-white/70 text-sm flex items-start gap-3">
+                        <span className="w-1.5 h-1.5 rounded-full bg-white/40 mt-1.5 shrink-0" />
+                        {text}
+                      </li>
+                    ))}
+                  </ul>
+                </GlassCard>
+              ))}
+            </div>
+          </AnimatedSection>
 
           <AnimatedSection delay={0.5} className="mt-12">
             <div className="p-6 rounded-xl bg-white/5 border border-white/10 text-center">
@@ -715,26 +780,26 @@ export default function EcoalfPage() {
         </AnimatedSection>
       </section>
 
-      {/* SECTION 9: SI YO FUERA CMO */}
+      {/* SECTION 9: SOY EL CMO */}
       <section className="relative flex flex-col items-center justify-center px-6 py-12">
         <div className="relative z-10 max-w-4xl w-full">
           <AnimatedSection className="text-center mb-12">
             <p className="text-xl md:text-2xl tracking-[0.4em] uppercase text-white/40 text-center">
-              Si yo fuera CMO de ECOALF
+              Como CMO de ECOALF
             </p>
           </AnimatedSection>
 
           <AnimatedSection delay={0.2}>
             <GlassCard className="p-10 md:p-16 rounded-[2.5rem] mb-12">
               <p className="text-lg md:text-xl leading-relaxed text-white/80 text-center">
-                Si asumiera hoy la dirección de marketing de ECOALF, mi prioridad no sería reforzar su discurso sostenible, sino elevar su{" "}
+                Como máxima responsable de marketing de ECOALF, mi prioridad no es reforzar el discurso sostenible de la marca, sino elevar su{" "}
                 <span className="text-cyan-300">relevancia cultural</span> y su capacidad de generar{" "}
-                <span className="text-teal-300">deseo</span>, manteniendo intacta su coherencia y credibilidad.
+                <span className="text-teal-300">deseo</span>, manteniendo intactas su coherencia y credibilidad.
               </p>
               <p className="text-lg md:text-xl leading-relaxed text-white mt-8 font-medium text-center">
-                La sostenibilidad debe ser el estándar silencioso.
+                La sostenibilidad debe convertirse en el estándar silencioso de la marca.
                 <br />
-                <span className="text-2xl md:text-3xl block mt-4 bg-gradient-to-r from-cyan-300 to-teal-300 bg-clip-text text-transparent">El deseo, la verdadera palanca de crecimiento.</span>
+                <span className="text-2xl md:text-3xl block mt-4 bg-gradient-to-r from-cyan-300 to-teal-300 bg-clip-text text-transparent">El deseo, en la verdadera palanca de crecimiento.</span>
               </p>
             </GlassCard>
           </AnimatedSection>
@@ -748,17 +813,17 @@ export default function EcoalfPage() {
               {
                 num: "1",
                 title: "Convertir el diseño en el primer driver de deseo",
-                desc: "Invertiría en cápsulas con una dirección creativa más marcada, capaces de competir visualmente con marcas premium, sin necesidad de justificar su origen sostenible en cada mensaje.",
+                desc: "Impulso el desarrollo de cápsulas con una dirección creativa más marcada, capaces de competir visualmente con marcas premium, sin necesidad de justificar en cada mensaje su origen sostenible.",
               },
               {
                 num: "2",
                 title: "Pasar de comunicar impacto a crear símbolos culturales",
-                desc: "Apostaría por colaboraciones selectivas con referentes culturales y creativos que conviertan a ECOALF en un símbolo del consumo consciente urbano, no solo en una marca responsable.",
+                desc: "Activo colaboraciones selectivas con referentes culturales y creativos que posicionen a ECOALF como un símbolo del consumo consciente urbano, no solo como una marca responsable.",
               },
               {
                 num: "3",
                 title: "Construir comunidad antes que volumen",
-                desc: "Priorizaría la creación de una comunidad activa y comprometida, entendiendo la fidelidad como pertenencia y no como repetición de compra.",
+                desc: "Prioritizo la creación de una comunidad activa y comprometida, entendiendo la fidelidad como pertenencia y vínculo emocional, no únicamente como repetición de compra.",
               },
             ].map((item, i) => (
               <AnimatedSection key={i} delay={0.3 + i * 0.1}>
@@ -791,28 +856,28 @@ export default function EcoalfPage() {
               {
                 category: "Marca",
                 items: [
-                  "Incremento Top of Mind en mercados clave",
-                  "Mayor reconocimiento espontáneo vs competidores",
-                  "Mayor percepción aspiracional",
-                  "Asociación con diseño y lifestyle"
+                  "Incremento del top of mind de marca en mercados clave",
+                  "Mejora del reconocimiento espontáneo frente a competidores sostenibles",
+                  "Aumento de la percepción aspiracional de la marca",
+                  "Mayor asociación de ECOALF con diseño y lifestyle, además de sostenibilidad"
                 ],
               },
               {
                 category: "Comunidad",
                 items: [
-                  "Crecimiento engagement en canales propios",
-                  "Interacción cualitativa con contenido",
-                  "Más clientes recurrentes y miembros activos",
-                  "Alta participación en eventos"
+                  "Crecimiento del engagement en Instagram y canales propios",
+                  "Aumento de la interacción cualitativa con el contenido de marca",
+                  "Incremento de clientes recurrentes y miembros activos de la comunidad",
+                  "Participación en lanzamientos, eventos y colaboraciones"
                 ],
               },
               {
                 category: "Negocio",
                 items: [
-                  "Tráfico cualificado online",
-                  "Mejor conversión en productos clave",
-                  "Mayor ticket medio en colecciones clave",
-                  "Mayor peso del canal directo"
+                  "Incremento del tráfico cualificado al canal online",
+                  "Mejora del ratio de conversión en productos clave",
+                  "Crecimiento del ticket medio en colecciones estratégicas",
+                  "Aumento del peso del canal directo en las ventas totales"
                 ],
               },
             ].map((group, i) => (
@@ -845,6 +910,31 @@ export default function EcoalfPage() {
               <h3 className="text-xs uppercase tracking-[0.2em] text-cyan-300 mb-4">Indicador Personal</h3>
               <p className="text-white/90 font-light leading-relaxed">
                 Que un consumidor recomiende ECOALF por lo que representa, no por lo que recicla.
+              </p>
+            </GlassCard>
+          </AnimatedSection>
+        </div>
+      </section>
+
+      {/* SECTION 10.5: RESUMEN EJECUTIVO */}
+      <section className="relative flex flex-col items-center justify-center px-6 py-12">
+        <div className="relative z-10 max-w-4xl w-full">
+          <AnimatedSection className="text-center mb-12">
+            <p className="text-xl md:text-2xl tracking-[0.4em] uppercase text-white/40 text-center">
+              Resumen Ejecutivo
+            </p>
+          </AnimatedSection>
+
+          <AnimatedSection delay={0.2}>
+            <GlassCard className="p-10 md:p-16 rounded-[2.5rem] space-y-8">
+              <p className="text-lg md:text-xl leading-relaxed text-white/80 text-center">
+                En síntesis, la sostenibilidad, que históricamente ha sido el principal factor diferencial de ECOALF, se ha convertido en un estándar esperado por el consumidor y ya no garantiza por sí sola relevancia ni crecimiento en un mercado saturado de mensajes éticos.
+              </p>
+              <p className="text-lg md:text-xl leading-relaxed text-white/80 text-center">
+                El reto estratégico de la marca no es reforzar su discurso sostenible, sino transformar su credibilidad en deseo, consolidando un posicionamiento premium aspiracional sin perder coherencia ni propósito. La sostenibilidad debe actuar como un estándar implícito y no como el eje central de la comunicación.
+              </p>
+              <p className="text-lg md:text-xl leading-relaxed text-white font-medium text-center">
+                La estrategia se articula en cuatro palancas clave: <span className="text-cyan-300">diseño</span> como generador de deseo, <span className="text-teal-300">relevancia cultural</span> como elemento diferenciador, <span className="text-emerald-300">comunidad</span> como motor de fidelización y <span className="text-sky-300">canal directo</span> como espacio de control de la experiencia de marca.
               </p>
             </GlassCard>
           </AnimatedSection>
@@ -901,6 +991,6 @@ export default function EcoalfPage() {
           </motion.div>
         </AnimatedSection>
       </section>
-    </main>
+    </main >
   )
 }
