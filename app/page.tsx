@@ -647,7 +647,6 @@ function MainContent() {
             <p className="text-xl md:text-2xl tracking-[0.4em] uppercase text-white/40 text-center">
               Plan de Acción
             </p>
-            <p className="text-white/30 text-xs mt-2 text-center"></p>
           </AnimatedSection>
 
           <div className="grid md:grid-cols-2 gap-6">
